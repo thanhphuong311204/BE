@@ -15,6 +15,9 @@ import javax.crypto.spec.SecretKeySpec;
 import com.nimbusds.jose.jwk.source.ImmutableSecret;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
+import org.springframework.security.oauth2.server.resource.web.DefaultBearerTokenResolver;
+import org.springframework.security.web.servlet.util.matcher.PathPatternRequestMatcher;
+import org.springframework.security.web.util.matcher.OrRequestMatcher;
 @Configuration
 public class SecurityConfig {
  @Bean PasswordEncoder passwordEncoder() { return new BCryptPasswordEncoder(); }
@@ -30,10 +33,19 @@ public class SecurityConfig {
   return decoder;
  }
  @Bean SecurityFilterChain security(HttpSecurity http,ObjectMapper mapper) throws Exception {
+  var paths=PathPatternRequestMatcher.withDefaults();
+  var publicAuth=new OrRequestMatcher(
+   paths.matcher(org.springframework.http.HttpMethod.POST,"/api/auth/register"),
+   paths.matcher(org.springframework.http.HttpMethod.POST,"/api/auth/login"));
+  var bearerTokens=new DefaultBearerTokenResolver();
   return http.csrf(c -> c.disable()).cors(c -> {})
    .sessionManagement(s -> s.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-   .authorizeHttpRequests(a -> a.requestMatchers(org.springframework.http.HttpMethod.POST,"/api/auth/register","/api/auth/login").permitAll().anyRequest().authenticated())
-   .oauth2ResourceServer(o -> o.jwt(j -> {}).authenticationEntryPoint((req,res,e) -> {
+   .authorizeHttpRequests(a -> a.requestMatchers(publicAuth).permitAll().anyRequest().authenticated())
+   .oauth2ResourceServer(o -> o
+    // permitAll controls authorization, not bearer-token authentication.
+    // Ignore stale/malformed JWT headers only on these exact public POST endpoints.
+    .bearerTokenResolver(req -> publicAuth.matches(req) ? null : bearerTokens.resolve(req))
+    .jwt(j -> {}).authenticationEntryPoint((req,res,e) -> {
     res.setStatus(401);res.setContentType("application/json");res.setCharacterEncoding("UTF-8");
     mapper.writeValue(res.getOutputStream(),new ApiError("UNAUTHORIZED","Phiên đăng nhập hết hạn hoặc không hợp lệ.",Map.of()));
    }))

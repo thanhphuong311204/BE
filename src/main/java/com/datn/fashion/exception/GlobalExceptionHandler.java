@@ -6,6 +6,7 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.multipart.MaxUploadSizeExceededException;
 import org.springframework.web.multipart.support.MissingServletRequestPartException;
+import org.springframework.web.servlet.resource.NoResourceFoundException;
 import java.util.*;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
@@ -15,7 +16,7 @@ public class GlobalExceptionHandler {
  ResponseEntity<ApiError> validation(MethodArgumentNotValidException e) {
   var fields=new LinkedHashMap<String,String>();
   e.getBindingResult().getFieldErrors().forEach(err -> {
-   String key=switch(err.getField()) { case "passwordMatching" -> "confirmPassword"; case "passwordWithinByteLimit" -> "password"; default -> err.getField(); };
+   String key=switch(err.getField()) { case "passwordMatching" -> "confirmPassword"; case "passwordWithinByteLimit" -> "password"; case "newPasswordWithinByteLimit" -> "newPassword"; case "currentPasswordWithinByteLimit" -> "currentPassword"; default -> err.getField(); };
    fields.putIfAbsent(key,err.getDefaultMessage());
   });
   return ResponseEntity.badRequest().body(new ApiError("VALIDATION_ERROR","Vui lòng kiểm tra dữ liệu.",fields));
@@ -26,6 +27,10 @@ public class GlobalExceptionHandler {
  ResponseEntity<ApiError> large() { return ResponseEntity.status(413).body(new ApiError("FILE_TOO_LARGE","Ảnh cần nhỏ hơn hoặc bằng 5 MB.",Map.of())); }
  @ExceptionHandler({HttpMessageNotReadableException.class,MissingServletRequestPartException.class})
  ResponseEntity<ApiError> badRequest() { return ResponseEntity.badRequest().body(new ApiError("INVALID_REQUEST","Dữ liệu gửi lên không hợp lệ.",Map.of())); }
+ @ExceptionHandler(NoResourceFoundException.class)
+ ResponseEntity<ApiError> notFound() {
+  return ResponseEntity.status(404).body(new ApiError("NOT_FOUND","Không tìm thấy đường dẫn yêu cầu.",Map.of()));
+ }
  @ExceptionHandler(Exception.class)
  ResponseEntity<ApiError> unexpected(Exception e) {
   // Do not log request bodies, tokens, passwords or provider responses.

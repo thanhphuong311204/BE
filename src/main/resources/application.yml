@@ -1,6 +1,8 @@
 server:
   port: ${PORT:8080}
 spring:
+  config:
+    import: optional:file:.env[.properties]
   datasource:
     url: ${DB_URL}
     username: ${DB_USERNAME}
@@ -30,3 +32,12 @@ app:
     cloud-name: ${CLOUDINARY_CLOUD_NAME:}
     api-key: ${CLOUDINARY_API_KEY:}
     api-secret: ${CLOUDINARY_API_SECRET:}
+    dynamic-folders: ${CLOUDINARY_DYNAMIC_FOLDERS:true}
+
+# Multipart transport diagnostics may contain API keys/signatures; never log them.
+logging:
+  level:
+    org.springframework.web.client: WARN
+    org.springframework.http.converter: WARN
+    # MVC debug diagnostics can include rejected password fields on validation errors.
+    org.springframework.web.servlet.mvc.method.annotation: WARN

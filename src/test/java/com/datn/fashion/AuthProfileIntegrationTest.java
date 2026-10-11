@@ -43,6 +43,62 @@ class AuthProfileIntegrationTest {
   return json.readTree(mvc.perform(post("/api/auth/login").contentType("application/json").content(request(Map.of("identifier",identifier,"password",password))))
    .andExpect(status().isOk()).andExpect(jsonPath("$.user.passwordHash").doesNotExist()).andReturn().getResponse().getContentAsString()).get("token").asText();
  }
+ private org.springframework.test.web.servlet.ResultActions changePassword(String token, String current, String next, String confirmation) throws Exception {
+  return mvc.perform(post("/api/auth/change-password").header("Authorization","Bearer "+token)
+   .contentType("application/json").content(request(Map.of("currentPassword",current,"newPassword",next,"confirmPassword",confirmation))));
+ }
+ @Test void changePasswordRequiresJwt() throws Exception {
+  var body=request(Map.of("currentPassword","123456","newPassword","new-password","confirmPassword","new-password"));
+  mvc.perform(post("/api/auth/change-password").contentType("application/json").content(body)).andExpect(status().isUnauthorized());
+  changePassword("invalid","123456","new-password","new-password").andExpect(status().isUnauthorized());
+  var claims=JwtClaimsSet.builder().issuer("fashion-api").subject("1").issuedAt(Instant.now().minusSeconds(500)).expiresAt(Instant.now().minusSeconds(120)).build();
+  String expired=encoder.encode(JwtEncoderParameters.from(JwsHeader.with(MacAlgorithm.HS256).build(),claims)).getTokenValue();
+  changePassword(expired,"123456","new-password","new-password").andExpect(status().isUnauthorized());
+ }
+ @Test void changePasswordHashesNewPasswordAndPreservesProfileAndJwt() throws Exception {
+  register("mai@example.com","0901234567");register("other@example.com","0911234567");
+  String token=login("mai@example.com","123456");
+  changePassword(token,"123456","new-password","new-password").andExpect(status().isNoContent()).andExpect(content().string(""));
+  var user=users.findByEmail("mai@example.com").orElseThrow();
+  assertTrue(passwords.matches("new-password",user.passwordHash));assertFalse(passwords.matches("123456",user.passwordHash));
+  assertTrue(passwords.matches("123456",users.findByEmail("other@example.com").orElseThrow().passwordHash));
+  mvc.perform(post("/api/auth/login").contentType("application/json").content(request(Map.of("identifier","mai@example.com","password","123456"))))
+   .andExpect(status().isUnauthorized());
+  assertFalse(login("mai@example.com","new-password").isBlank());
+  mvc.perform(get("/api/profile").header("Authorization","Bearer "+token)).andExpect(status().isOk()).andExpect(jsonPath("$.email").value("mai@example.com"));
+ }
+ @Test void wrongCurrentPasswordDoesNotExpireSessionOrUpdateHash() throws Exception {
+  register("mai@example.com","0901234567");String token=login("mai@example.com","123456");
+  changePassword(token,"wrong-password","new-password","new-password").andExpect(status().isBadRequest())
+   .andExpect(jsonPath("$.code").value("CURRENT_PASSWORD_INCORRECT")).andExpect(jsonPath("$.fields.currentPassword").exists());
+  assertTrue(passwords.matches("123456",users.findByEmail("mai@example.com").orElseThrow().passwordHash));
+  mvc.perform(get("/api/profile").header("Authorization","Bearer "+token)).andExpect(status().isOk());
+ }
+ @Test void changePasswordValidatesConfirmationLengthAndUtf8Bytes() throws Exception {
+  register("mai@example.com","0901234567");String token=login("mai@example.com","123456");
+  changePassword(token,"123456","new-password","mismatch").andExpect(status().isBadRequest()).andExpect(jsonPath("$.fields.confirmPassword").exists());
+  changePassword(token,"123456","short","short").andExpect(status().isBadRequest()).andExpect(jsonPath("$.fields.newPassword").exists());
+  changePassword(token,"123456","é".repeat(37),"é".repeat(37)).andExpect(status().isBadRequest()).andExpect(jsonPath("$.fields.newPassword").exists());
+  changePassword(token,"é".repeat(37),"new-password","new-password").andExpect(status().isBadRequest()).andExpect(jsonPath("$.fields.currentPassword").exists());
+  changePassword(token,"123456","123456","123456").andExpect(status().isBadRequest()).andExpect(jsonPath("$.code").value("PASSWORD_UNCHANGED"));
+  assertTrue(passwords.matches("123456",users.findByEmail("mai@example.com").orElseThrow().passwordHash));
+ }
+ @Test void changePasswordRejectsInactiveAccountAndInvalidSubject() throws Exception {
+  register("mai@example.com","0901234567");String token=login("mai@example.com","123456");
+  var user=users.findByEmail("mai@example.com").orElseThrow();user.status=com.datn.fashion.entity.User.Status.SUSPENDED;users.saveAndFlush(user);
+  changePassword(token,"123456","new-password","new-password").andExpect(status().isUnauthorized());
+  var claims=JwtClaimsSet.builder().issuer("fashion-api").subject("invalid").issuedAt(Instant.now()).expiresAt(Instant.now().plusSeconds(300)).build();
+  String invalidSubject=encoder.encode(JwtEncoderParameters.from(JwsHeader.with(MacAlgorithm.HS256).build(),claims)).getTokenValue();
+  changePassword(invalidSubject,"123456","new-password","new-password").andExpect(status().isUnauthorized());
+ }
+ @Test void passwordChangeIsRateLimitedPerAccount() throws Exception {
+  register("mai@example.com","0901234567");register("other@example.com","0911234567");
+  String token=login("mai@example.com","123456");
+  for(int i=0;i<5;i++) changePassword(token,"wrong-password","new-password","new-password").andExpect(status().isBadRequest());
+  changePassword(token,"123456","new-password","new-password").andExpect(status().isTooManyRequests())
+   .andExpect(jsonPath("$.code").value("PASSWORD_CHANGE_RATE_LIMITED"));
+  changePassword(login("other@example.com","123456"),"123456","new-password","new-password").andExpect(status().isNoContent());
+ }
  @Test void registerHashesPasswordAndNormalizesIdentifiers() throws Exception {
   register("MAI@example.com","+84901234567");
   var u=users.findByEmail("mai@example.com").orElseThrow();
@@ -182,5 +238,125 @@ class AuthProfileIntegrationTest {
   mvc.perform(get("/api/profile").header("Authorization","Bearer "+token))
    .andExpect(status().isNotFound()).andExpect(jsonPath("$.code").value("PROFILE_NOT_FOUND"));
   assertEquals(1,users.count());assertEquals(0,profiles.count());
+ }
+
+ @Test void personalDetailsPersistAcrossLoginAndExplicitNullClearsThem() throws Exception {
+  register("mai@example.com","0901234567"); String token=login("mai@example.com","123456");
+  mvc.perform(put("/api/profile").header("Authorization","Bearer "+token).contentType("application/json")
+   .content(request(Map.of("fullName","Mai cập nhật","phoneNumber","+84921234567","dateOfBirth","2000-02-29","gender","PREFER_NOT_TO_SAY"))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.fullName").value("Mai cập nhật"))
+   .andExpect(jsonPath("$.phoneNumber").value("0921234567"))
+   .andExpect(jsonPath("$.dateOfBirth").value("2000-02-29"))
+   .andExpect(jsonPath("$.gender").value("PREFER_NOT_TO_SAY"));
+  var account=users.findByEmail("mai@example.com").orElseThrow();
+  var saved=profiles.findById(account.id).orElseThrow();
+  assertEquals(java.time.LocalDate.of(2000,2,29),saved.dateOfBirth);
+  assertEquals(com.datn.fashion.entity.UserProfile.Gender.PREFER_NOT_TO_SAY,saved.gender);
+  token=login("0921234567","123456");
+  mvc.perform(get("/api/profile").header("Authorization","Bearer "+token))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.dateOfBirth").value("2000-02-29"))
+   .andExpect(jsonPath("$.gender").value("PREFER_NOT_TO_SAY"))
+   .andExpect(jsonPath("$.email").value("mai@example.com"));
+  mvc.perform(put("/api/profile").header("Authorization","Bearer "+token).contentType("application/json")
+   .content("{\"fullName\":\"Mai cập nhật\",\"phoneNumber\":\"0921234567\",\"dateOfBirth\":null,\"gender\":null}"))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.dateOfBirth").isEmpty()).andExpect(jsonPath("$.gender").isEmpty());
+  saved=profiles.findById(account.id).orElseThrow(); assertNull(saved.dateOfBirth);assertNull(saved.gender);
+ }
+
+ @Test void invalidPersonalDetailsAndEmailChangesDoNotWriteAnything() throws Exception {
+  register("mai@example.com","0901234567"); String token=login("mai@example.com","123456");
+  for(var entry : Map.of("dateOfBirth",java.time.LocalDate.now().plusDays(1).toString(),"gender","UNKNOWN","phoneNumber","123").entrySet()) {
+   var body=new java.util.HashMap<String,Object>(Map.of("fullName","Không được lưu","phoneNumber","0921234567"));
+   body.put(entry.getKey(),entry.getValue());
+   mvc.perform(put("/api/profile").header("Authorization","Bearer "+token).contentType("application/json").content(request(body)))
+    .andExpect(status().isBadRequest()).andExpect(jsonPath("$.fields."+entry.getKey()).exists());
+  }
+  for(var entry : Map.of("dateOfBirth","2001-02-30","email","changed@example.com").entrySet()) {
+   var body=new java.util.HashMap<String,Object>(Map.of("fullName","Không được lưu","phoneNumber","0921234567"));body.put(entry.getKey(),entry.getValue());
+   mvc.perform(put("/api/profile").header("Authorization","Bearer "+token).contentType("application/json").content(request(body)))
+    .andExpect(status().isBadRequest());
+  }
+  mvc.perform(put("/api/profile").header("Authorization","Bearer "+token).contentType("application/json")
+   .content(request(Map.of("fullName","Không được lưu","phoneNumber","0921234567","dateOfBirth","0999-12-31"))))
+   .andExpect(status().isBadRequest()).andExpect(jsonPath("$.fields.dateOfBirth").exists());
+  var account=users.findByEmail("mai@example.com").orElseThrow();
+  assertEquals("0901234567",account.phoneNumber);
+  var saved=profiles.findById(account.id).orElseThrow();assertEquals("Nguyễn Mai",saved.fullName);
+  assertNull(saved.dateOfBirth);assertNull(saved.gender);
+ }
+
+ @Test void allDatabaseGenderValuesAreAccepted() throws Exception {
+  register("mai@example.com","0901234567");String token=login("mai@example.com","123456");
+  for(var gender:com.datn.fashion.entity.UserProfile.Gender.values()) {
+   mvc.perform(put("/api/profile").header("Authorization","Bearer "+token).contentType("application/json")
+    .content(request(Map.of("fullName","Nguyễn Mai","phoneNumber","0901234567","gender",gender.name(),"dateOfBirth",java.time.LocalDate.now().toString()))))
+    .andExpect(status().isOk()).andExpect(jsonPath("$.gender").value(gender.name()));
+  }
+ }
+
+ @Test void profileReturnsRealBirthAndGenderWithoutChangingExistingUpdateContract() throws Exception {
+  register("mai@example.com","0901234567");String token=login("mai@example.com","123456");
+  var profile=profiles.findById(users.findByEmail("mai@example.com").orElseThrow().id).orElseThrow();
+  profile.dateOfBirth=java.time.LocalDate.of(2002,5,16);
+  profile.gender=com.datn.fashion.entity.UserProfile.Gender.FEMALE;
+  profiles.saveAndFlush(profile);
+  mvc.perform(get("/api/profile").header("Authorization","Bearer "+token))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.dateOfBirth").value("2002-05-16"))
+   .andExpect(jsonPath("$.gender").value("FEMALE"));
+  mvc.perform(put("/api/profile").header("Authorization","Bearer "+token).contentType("application/json")
+   .content(request(Map.of("fullName","Mai mới","phoneNumber","0901234567"))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.dateOfBirth").value("2002-05-16"))
+   .andExpect(jsonPath("$.gender").value("FEMALE"));
+ }
+
+ @Test void loginIgnoresInvalidBearerOnPublicEndpoint() throws Exception {
+  register("mai@example.com","0901234567");
+  mvc.perform(post("/api/auth/login").header("Authorization","Bearer invalid-old-token")
+   .contentType("application/json").content(request(Map.of("identifier","mai@example.com","password","123456"))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.token").isNotEmpty());
+ }
+ @Test void loginIgnoresExpiredBearerOnPublicEndpoint() throws Exception {
+  register("mai@example.com","0901234567");
+  var claims=JwtClaimsSet.builder().issuer("fashion-api").subject("999")
+   .issuedAt(Instant.now().minusSeconds(500)).expiresAt(Instant.now().minusSeconds(120)).build();
+  String expired=encoder.encode(JwtEncoderParameters.from(JwsHeader.with(MacAlgorithm.HS256).build(),claims)).getTokenValue();
+  mvc.perform(post("/api/auth/login").header("Authorization","Bearer "+expired)
+   .contentType("application/json").content(request(Map.of("identifier","0901234567","password","123456"))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.user.email").value("mai@example.com"));
+ }
+ @Test void registerIgnoresInvalidBearerOnPublicEndpoint() throws Exception {
+  mvc.perform(post("/api/auth/register").header("Authorization","Bearer invalid-old-token")
+   .contentType("application/json").content(request(registration("mai@example.com","0901234567"))))
+   .andExpect(status().isCreated());
+ }
+ @Test void loginWithInvalidBearerStillVerifiesPassword() throws Exception {
+  register("mai@example.com","0901234567");
+  mvc.perform(post("/api/auth/login").header("Authorization","Bearer invalid-old-token")
+   .contentType("application/json").content(request(Map.of("identifier","mai@example.com","password","wrong-password"))))
+   .andExpect(status().isUnauthorized()).andExpect(jsonPath("$.code").value("INVALID_CREDENTIALS"));
+ }
+ @Test void loginJsonContractIsValidatedWithoutJwt() throws Exception {
+  mvc.perform(post("/api/auth/login").contentType("application/json").content("{}"))
+   .andExpect(status().isBadRequest()).andExpect(jsonPath("$.code").value("VALIDATION_ERROR"));
+  mvc.perform(post("/api/auth/login").header("Authorization","Bearer invalid-old-token")
+   .contentType("application/json").content(request(Map.of("email","mai@example.com","password","123456"))))
+   .andExpect(status().isBadRequest()).andExpect(jsonPath("$.code").value("INVALID_REQUEST"));
+ }
+ @Test void protectedProfileStillRejectsInvalidJwtWithDistinctError() throws Exception {
+  mvc.perform(get("/api/profile").header("Authorization","Bearer invalid-old-token"))
+   .andExpect(status().isUnauthorized()).andExpect(jsonPath("$.code").value("UNAUTHORIZED"))
+   .andExpect(jsonPath("$.message").value("Phiên đăng nhập hết hạn hoặc không hợp lệ."));
+ }
+ @Test void jwtBypassAppliesOnlyToExactPostAuthEndpoints() throws Exception {
+  mvc.perform(get("/api/auth/login").header("Authorization","Bearer invalid-old-token"))
+   .andExpect(status().isUnauthorized()).andExpect(jsonPath("$.code").value("UNAUTHORIZED"));
+  mvc.perform(post("/api/auth/login/extra").header("Authorization","Bearer invalid-old-token"))
+   .andExpect(status().isUnauthorized()).andExpect(jsonPath("$.code").value("UNAUTHORIZED"));
+ }
+ @Test void publicLoginJwtBypassWorksWithContextPath() throws Exception {
+  register("mai@example.com","0901234567");
+  mvc.perform(post("/nova/api/auth/login").contextPath("/nova").header("Authorization","Bearer invalid-old-token")
+   .contentType("application/json").content(request(Map.of("identifier","mai@example.com","password","123456"))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.token").isNotEmpty());
  }
 }

@@ -21,9 +21,12 @@ public class AuthService {
     private final UserProfileRepository profiles;
     private final PasswordEncoder passwords;
     private final JwtService tokens;
+    private final PasswordChangeRateLimiter passwordChanges;
 
-    public AuthService(UserRepository users, UserProfileRepository profiles, PasswordEncoder passwords, JwtService tokens) {
+    public AuthService(UserRepository users, UserProfileRepository profiles, PasswordEncoder passwords, JwtService tokens,
+            PasswordChangeRateLimiter passwordChanges) {
         this.users = users; this.profiles = profiles; this.passwords = passwords; this.tokens = tokens;
+        this.passwordChanges = passwordChanges;
     }
 
     @Transactional
@@ -58,6 +61,24 @@ public class AuthService {
         account.lastLoginAt = Instant.now();
         users.saveAndFlush(account);
         return new LoginResponse(tokens.create(account.id), ProfileResponse.from(account, profile));
+    }
+
+    @Transactional
+    public void changePassword(Long userId, ChangePasswordRequest request) {
+        passwordChanges.acquire(userId);
+        // Serialize password changes so two requests cannot both verify an obsolete hash.
+        var account = users.findLockedById(userId).orElseThrow(() ->
+            new ApiException(HttpStatus.UNAUTHORIZED, "UNAUTHORIZED", "Tài khoản không còn khả dụng."));
+        if (account.status != User.Status.ACTIVE || account.deletedAt != null)
+            throw new ApiException(HttpStatus.UNAUTHORIZED, "UNAUTHORIZED", "Tài khoản không còn khả dụng.");
+        if (account.passwordHash == null || !passwords.matches(request.currentPassword(), account.passwordHash))
+            throw new ApiException(HttpStatus.BAD_REQUEST, "CURRENT_PASSWORD_INCORRECT", "Mật khẩu hiện tại không đúng.",
+                Map.of("currentPassword", "Mật khẩu hiện tại không đúng."));
+        if (request.currentPassword().equals(request.newPassword()))
+            throw new ApiException(HttpStatus.BAD_REQUEST, "PASSWORD_UNCHANGED", "Mật khẩu mới phải khác mật khẩu hiện tại.",
+                Map.of("newPassword", "Mật khẩu mới phải khác mật khẩu hiện tại."));
+        account.passwordHash = passwords.encode(request.newPassword());
+        users.saveAndFlush(account);
     }
 
     private ApiException badCredentials() {

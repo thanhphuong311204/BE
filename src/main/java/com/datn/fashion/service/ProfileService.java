@@ -22,9 +22,13 @@ public class ProfileService {
  public ProfileService(UserRepository users,UserProfileRepository profiles,AvatarStorage avatars) { this.users=users;this.profiles=profiles;this.avatars=avatars; }
  @Transactional(readOnly=true) public ProfileResponse get(Long id) { var u=user(id); return ProfileResponse.from(u,profile(id)); }
  @Transactional public ProfileResponse update(Long id,UpdateProfileRequest r) {
+  if(r.dateOfBirth()!=null && r.dateOfBirth().isBefore(java.time.LocalDate.of(1000,1,1)))
+   throw new ApiException(HttpStatus.BAD_REQUEST,"VALIDATION_ERROR","Ngày sinh không hợp lệ.",Map.of("dateOfBirth","Ngày sinh ngoài phạm vi được hỗ trợ."));
   var u=userForUpdate(id);var p=profile(id);String phone=Identifiers.phone(r.phoneNumber());
   if(users.existsByPhoneNumberAndIdNot(phone,id)) throw new ApiException(HttpStatus.CONFLICT,"PHONE_EXISTS","Số điện thoại đã tồn tại.",Map.of("phoneNumber","Số điện thoại đã tồn tại."));
   p.fullName=r.fullName().trim();u.phoneNumber=phone;
+  if(r.dateOfBirthProvided()) p.dateOfBirth=r.dateOfBirth();
+  if(r.genderProvided()) p.gender=r.gender()==null ? null : UserProfile.Gender.valueOf(r.gender());
   users.saveAndFlush(u);profiles.saveAndFlush(p);return ProfileResponse.from(u,p);
  }
  @Transactional public ProfileResponse upload(Long id,MultipartFile file) {

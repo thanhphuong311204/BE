@@ -1,0 +1,92 @@
+{
+  "MINIMALIST": {
+    "illustrationIndex": 0,
+    "descriptionVi": "Đường nét gọn gàng, ít chi tiết và bảng màu trung tính.",
+    "descriptionEn": "Clean lines, restrained details and neutral tones."
+  },
+  "ELEGANT": {
+    "illustrationIndex": 1,
+    "descriptionVi": "Phom dáng chỉn chu, chất liệu mềm và chi tiết tinh tế.",
+    "descriptionEn": "Refined silhouettes, soft fabrics and considered details."
+  },
+  "CASUAL": {
+    "illustrationIndex": 2,
+    "descriptionVi": "Thoải mái và linh hoạt với những món đồ dễ phối.",
+    "descriptionEn": "Comfortable, versatile everyday essentials."
+  },
+  "STREETWEAR": {
+    "illustrationIndex": 3,
+    "descriptionVi": "Phom rộng, layering và điểm nhấn mang cảm hứng đường phố.",
+    "descriptionEn": "Relaxed silhouettes, layering and street-inspired accents."
+  },
+  "ROMANTIC": {
+    "illustrationIndex": 4,
+    "descriptionVi": "Vải rủ, họa tiết hoa và gam màu dịu nhẹ.",
+    "descriptionEn": "Flowing fabrics, floral patterns and soft colors."
+  },
+  "SPORTY": {
+    "illustrationIndex": 5,
+    "descriptionVi": "Trang phục năng động, gọn nhẹ và dễ di chuyển.",
+    "descriptionEn": "Active, lightweight pieces designed for movement."
+  },
+  "OLD_MONEY": {
+    "illustrationIndex": 6,
+    "descriptionVi": "Đồ may đo, chất liệu cổ điển và sự sang trọng tiết chế.",
+    "descriptionEn": "Tailored pieces, classic textures and understated polish."
+  },
+  "VINTAGE": {
+    "illustrationIndex": 7,
+    "descriptionVi": "Phom dáng và họa tiết lấy cảm hứng từ các thập niên trước.",
+    "descriptionEn": "Silhouettes and prints inspired by earlier decades."
+  },
+  "FEMININE": {
+    "illustrationIndex": 8,
+    "descriptionVi": "Đường nét mềm mại với váy, nếp ly và chi tiết thanh nhã.",
+    "descriptionEn": "Soft lines, skirts, pleats and graceful details."
+  },
+  "BOHEMIAN": {
+    "illustrationIndex": 9,
+    "descriptionVi": "Chất liệu tự nhiên, phom thoải mái và họa tiết phóng khoáng.",
+    "descriptionEn": "Natural textures, relaxed shapes and expressive patterns."
+  },
+  "PREPPY": {
+    "illustrationIndex": 10,
+    "descriptionVi": "Áo cổ bẻ, blazer và họa tiết kẻ mang cảm hứng học đường.",
+    "descriptionEn": "Collared shirts, blazers and collegiate checks."
+  },
+  "CLASSIC": {
+    "illustrationIndex": 11,
+    "descriptionVi": "Những món đồ vượt thời gian với phom dáng cân đối.",
+    "descriptionEn": "Timeless essentials with balanced silhouettes."
+  },
+  "CHIC": {
+    "illustrationIndex": 12,
+    "descriptionVi": "Phối đồ hiện đại, gọn gàng với một điểm nhấn nổi bật.",
+    "descriptionEn": "Polished modern styling with one distinctive accent."
+  },
+  "MONOCHROME": {
+    "illustrationIndex": 13,
+    "descriptionVi": "Kết hợp nhiều sắc độ của cùng một tông màu.",
+    "descriptionEn": "Layered shades from a single color family."
+  },
+  "SMART_CASUAL": {
+    "illustrationIndex": 14,
+    "descriptionVi": "Cân bằng giữa may đo lịch sự và sự thoải mái hằng ngày.",
+    "descriptionEn": "A balance of tailoring and everyday ease."
+  },
+  "EDGY": {
+    "illustrationIndex": 15,
+    "descriptionVi": "Da, denim tối màu và những chi tiết tạo cá tính.",
+    "descriptionEn": "Leather, dark denim and expressive accents."
+  },
+  "COQUETTE": {
+    "illustrationIndex": 16,
+    "descriptionVi": "Gam pastel, nơ nhỏ và chi tiết mềm mại, duyên dáng.",
+    "descriptionEn": "Pastels, small bows and delicate playful details."
+  },
+  "RESORT": {
+    "illustrationIndex": 17,
+    "descriptionVi": "Linen, phom thoáng và phụ kiện nhẹ cho kỳ nghỉ.",
+    "descriptionEn": "Breezy linen, relaxed shapes and light holiday accessories."
+  }
+}
