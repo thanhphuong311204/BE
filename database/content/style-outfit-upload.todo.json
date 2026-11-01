@@ -1,0 +1,1814 @@
+{
+  "status": "Missing actual outfit illustrations; fill file and provenance before upload",
+  "images": [
+    {
+      "slug": "minimalist",
+      "kind": "outfit",
+      "outfitKey": "minimalist-1",
+      "caption": "Đi làm nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style minimalist. Depict exactly: Sơ mi ivory; Quần suông đen; Loafer đen; Túi da phẳng. Cổ áo mở một nút và gấu quần gọn tạo đường thẳng rõ, túi không nhiều khóa giữ nhịp tối giản."
+    },
+    {
+      "slug": "minimalist",
+      "kind": "outfit",
+      "outfitKey": "minimalist-2",
+      "caption": "Cuối tuần sạch nét",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style minimalist. Depict exactly: Áo thun đá; Jeans trắng thẳng; Sneaker trắng; Đồng hồ dây da. Chênh lệch nhẹ giữa đá và trắng đủ tạo chiều sâu mà không cần họa tiết."
+    },
+    {
+      "slug": "minimalist",
+      "kind": "outfit",
+      "outfitKey": "minimalist-3",
+      "caption": "Một cột màu",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style minimalist. Depict exactly: Áo knit đen; Váy midi đen; Sandal quai mảnh; Túi ivory. Cột màu đen được ngắt bằng túi sáng nhỏ; knit và váy rủ tạo khác biệt về chất liệu."
+    },
+    {
+      "slug": "minimalist",
+      "kind": "outfit",
+      "outfitKey": "minimalist-4",
+      "caption": "Linen mùa nóng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style minimalist. Depict exactly: Áo linen cổ vuông; Quần linen màu cát; Sandal da nâu; Túi dệt trơn. Phom rộng cần đường cổ gọn và gấu vừa phải để linen không trông luộm thuộm."
+    },
+    {
+      "slug": "minimalist",
+      "kind": "outfit",
+      "outfitKey": "minimalist-5",
+      "caption": "Lớp ngoài có cấu trúc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style minimalist. Depict exactly: Áo cổ lọ mỏng; Quần thẳng xám; Blazer đen; Boot cổ thấp. Blazer giữ vai còn lớp trong mỏng giúp ba lớp vẫn nhẹ khi ngồi hoặc di chuyển."
+    },
+    {
+      "slug": "classic",
+      "kind": "outfit",
+      "outfitKey": "classic-1",
+      "caption": "Blazer nền tảng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style classic. Depict exactly: Blazer navy; Sơ mi trắng; Quần camel thẳng; Loafer nâu. Ba sắc độ quen thuộc chia rõ lớp ngoài và lớp trong; giữ dây lưng cùng tông giày để tổng thể liền."
+    },
+    {
+      "slug": "classic",
+      "kind": "outfit",
+      "outfitKey": "classic-2",
+      "caption": "Chữ A cuối tuần",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style classic. Depict exactly: Áo knit kem; Váy chữ A navy; Giày bệt da; Túi hộp nhỏ. Áo knit mềm làm nhẹ chân váy có độ đứng; gấu dưới gối vừa phải dễ đi lại."
+    },
+    {
+      "slug": "classic",
+      "kind": "outfit",
+      "outfitKey": "classic-3",
+      "caption": "Sơ mi không áo khoác",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style classic. Depict exactly: Sơ mi xanh nhạt; Quần xám có ly; Derby nâu; Đồng hồ đơn giản. Cổ tay xắn gọn giảm tính trang trọng nhưng ly quần vẫn giữ sự chỉn chu."
+    },
+    {
+      "slug": "classic",
+      "kind": "outfit",
+      "outfitKey": "classic-4",
+      "caption": "Váy sơ mi",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style classic. Depict exactly: Váy sơ mi beige; Dây lưng da nhỏ; Sandal gót thấp; Túi navy. Dây lưng định vị eo mà không kéo căng hàng nút, gót thấp phù hợp ngày di chuyển."
+    },
+    {
+      "slug": "classic",
+      "kind": "outfit",
+      "outfitKey": "classic-5",
+      "caption": "Classic ngày lạnh",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style classic. Depict exactly: Áo cổ lọ ivory; Quần navy; Áo khoác camel; Boot nâu. Cổ lọ là nền phẳng dưới áo khoác, màu nâu nối camel với navy mà không tạo tương phản gắt."
+    },
+    {
+      "slug": "quiet-luxury",
+      "kind": "outfit",
+      "outfitKey": "quiet-luxury-1",
+      "caption": "Tông yến mạch",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style quiet-luxury. Depict exactly: Áo knit yến mạch; Quần ecru suông; Loafer suede; Túi nâu không logo. Chênh lệch sáng rất nhỏ được bù bằng knit và mặt quần mượt; túi nâu tạo neo màu."
+    },
+    {
+      "slug": "quiet-luxury",
+      "kind": "outfit",
+      "outfitKey": "quiet-luxury-2",
+      "caption": "Sơ mi rủ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style quiet-luxury. Depict exactly: Sơ mi taupe; Quần ivory thẳng; Sandal da; Khuyên tai nhỏ. Cổ và tay áo vừa vặn giúp chất rủ có trật tự, phụ kiện nhỏ giữ focus trên bề mặt vải."
+    },
+    {
+      "slug": "quiet-luxury",
+      "kind": "outfit",
+      "outfitKey": "quiet-luxury-3",
+      "caption": "Áo khoác dài",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style quiet-luxury. Depict exactly: Áo thun kem dày; Quần nâu rộng; Coat taupe; Boot chocolate. Áo thun đủ dày giữ nền phẳng, gấu coat không kéo lê để vẻ thư thái vẫn gọn."
+    },
+    {
+      "slug": "quiet-luxury",
+      "kind": "outfit",
+      "outfitKey": "quiet-luxury-4",
+      "caption": "Knit và midi",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style quiet-luxury. Depict exactly: Áo knit nâu; Váy midi satin matte; Giày bệt mũi thuôn; Túi mềm. Satin ít bóng đi cùng knit tạo chiều sâu, sơ vin một cạnh nếu muốn rõ eo."
+    },
+    {
+      "slug": "quiet-luxury",
+      "kind": "outfit",
+      "outfitKey": "quiet-luxury-5",
+      "caption": "Linen tinh tế",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style quiet-luxury. Depict exactly: Áo linen ivory; Quần linen taupe; Mule da; Túi tote trơn. Ủi phần cổ và đường gấu thay vì cố xóa mọi nếp tự nhiên của linen."
+    },
+    {
+      "slug": "parisian-chic",
+      "kind": "outfit",
+      "outfitKey": "parisian-chic-1",
+      "caption": "Kẻ và denim",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style parisian-chic. Depict exactly: Áo kẻ kem navy; Jeans thẳng; Ballet đen; Khăn cổ nhỏ. Jeans tối giảm độ bận của kẻ, khăn một màu chỉ là điểm kết thúc ở cổ."
+    },
+    {
+      "slug": "parisian-chic",
+      "kind": "outfit",
+      "outfitKey": "parisian-chic-2",
+      "caption": "Trench linh hoạt",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style parisian-chic. Depict exactly: Áo thun trắng; Quần navy; Trench beige; Loafer nâu. Trench mở để lộ hai mảng trong gọn, quần không quá rộng giữ tổng thể nhẹ."
+    },
+    {
+      "slug": "parisian-chic",
+      "kind": "outfit",
+      "outfitKey": "parisian-chic-3",
+      "caption": "Điểm đỏ nhỏ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style parisian-chic. Depict exactly: Sơ mi trắng; Jeans đen; Mule da; Túi đỏ rượu. Đỏ chỉ chiếm diện tích nhỏ nên vẫn dùng được với nền công sở tối."
+    },
+    {
+      "slug": "parisian-chic",
+      "kind": "outfit",
+      "outfitKey": "parisian-chic-4",
+      "caption": "Midi mềm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style parisian-chic. Depict exactly: Cardigan navy; Váy midi kem; Giày bệt; Khuyên tròn nhỏ. Cardigan cài vài nút tạo đường cổ mở, váy ít nếp cân bằng knit."
+    },
+    {
+      "slug": "parisian-chic",
+      "kind": "outfit",
+      "outfitKey": "parisian-chic-5",
+      "caption": "Khăn thành điểm nhìn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style parisian-chic. Depict exactly: Áo knit kem; Quần xám thẳng; Giày da đen; Khăn họa tiết nhỏ. Khăn đặt sát cổ và phần còn lại trơn tránh nhiều điểm cạnh tranh."
+    },
+    {
+      "slug": "preppy",
+      "kind": "outfit",
+      "outfitKey": "preppy-1",
+      "caption": "Knit học đường",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style preppy. Depict exactly: Áo gile navy; Sơ mi Oxford xanh; Váy ly xám; Loafer burgundy. Gile không tay giữ cổ sơ mi rõ mà bớt nóng, váy ly nên có khoảng cử động khi ngồi."
+    },
+    {
+      "slug": "preppy",
+      "kind": "outfit",
+      "outfitKey": "preppy-2",
+      "caption": "Polo chino",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style preppy. Depict exactly: Polo kem; Chino navy; Sneaker trắng; Dây lưng nâu. Pique giữ cổ đứng, sneaker làm nhẹ mức trang trọng của chino."
+    },
+    {
+      "slug": "preppy",
+      "kind": "outfit",
+      "outfitKey": "preppy-3",
+      "caption": "Cardigan sọc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style preppy. Depict exactly: Cardigan viền burgundy; Áo thun trắng; Jeans thẳng; Loafer. Viền knit là họa tiết chính nên nền denim không rách giúp outfit có nhịp sạch."
+    },
+    {
+      "slug": "preppy",
+      "kind": "outfit",
+      "outfitKey": "preppy-4",
+      "caption": "Blazer gọn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style preppy. Depict exactly: Blazer navy; Sơ mi kem; Quần xám; Giày derby. Không thêm huy hiệu hoặc cà vạt cầu kỳ, phom blazer và quần đủ truyền tải học đường."
+    },
+    {
+      "slug": "preppy",
+      "kind": "outfit",
+      "outfitKey": "preppy-5",
+      "caption": "Váy polo",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style preppy. Depict exactly: Váy polo navy; Tất trắng ngắn; Giày tennis; Túi tote kem. Tất thấp và giày thể thao phù hợp vận động, chiều dài váy được thử bằng động tác ngồi."
+    },
+    {
+      "slug": "old-money",
+      "kind": "outfit",
+      "outfitKey": "linen-campus",
+      "caption": "Linen gọn cho ngày học",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style old-money. Depict exactly: Sơ mi linen pha trắng ngà; Quần suông navy; Sneaker sáng màu hoặc loafer êm; Tote canvas gọn. Áo thoáng kết hợp quần có đường dọc tạo nét chỉn chu mà vẫn thuận tiện ngồi học và di chuyển. Sơ vin một phần nếu thấy dễ chịu; chọn sneaker khi phải đi bộ nhiều."
+    },
+    {
+      "slug": "old-money",
+      "kind": "outfit",
+      "outfitKey": "navy-work",
+      "caption": "Navy cho buổi làm việc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style old-money. Depict exactly: Blazer navy lót nhẹ; Sơ mi xanh nhạt; Quần âu be; Loafer nâu; Túi có cấu trúc. Blazer tạo đường vai rõ, sơ mi xanh nhạt làm dịu navy và quần be tạo khoảng sáng. Lặp sắc nâu ở giày hoặc thắt lưng để liên kết; tháo blazer khi ra ngoài trời nóng."
+    },
+    {
+      "slug": "old-money",
+      "kind": "outfit",
+      "outfitKey": "weekend-polo",
+      "caption": "Cuối tuần với polo",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style old-money. Depict exactly: Polo màu kem; Quần thẳng nâu nhạt; Ballet flat hoặc sneaker; Túi đeo chéo nhỏ. Polo giữ một chút nét cổ điển nhưng bớt trang trọng hơn sơ mi. Quần thẳng cân bằng thân áo; túi nhỏ giữ tổng thể nhẹ và đủ tiện cho đi cà phê."
+    },
+    {
+      "slug": "old-money",
+      "kind": "outfit",
+      "outfitKey": "midi-museum",
+      "caption": "Midi cho buổi xem triển lãm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style old-money. Depict exactly: Áo dệt kim mỏng cổ tròn; Chân váy midi chữ A navy; Giày bệt mềm; Khuyên nhỏ; Túi vừa. Bề mặt dệt kim tạo chiều sâu bên cạnh váy trơn. Váy chữ A và giày bệt phù hợp đứng lâu; thử gấu không mắc vào giày trước khi đi."
+    },
+    {
+      "slug": "old-money",
+      "kind": "outfit",
+      "outfitKey": "dinner-ivory",
+      "caption": "Bữa tối sắc ngà",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style old-money. Depict exactly: Áo blouse trắng ngà không xuyên thấu; Quần âu xám đá hoặc chân váy cột; Giày gót thấp; Túi nhỏ; Một món trang sức điểm nhấn. Áo có độ rủ mềm giúp bộ đồ bớt giống đồng phục công sở. Một điểm sáng ở phụ kiện đủ tạo cảm giác có chủ đích; giày gót thấp là lựa chọn thoải mái."
+    },
+    {
+      "slug": "old-money",
+      "kind": "outfit",
+      "outfitKey": "cardigan-office",
+      "caption": "Cardigan trong phòng điều hòa",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style old-money. Depict exactly: Áo cổ tròn sáng màu; Cardigan navy mỏng; Quần suông be; Loafer êm; Đồng hồ đơn giản. Hai lớp mỏng dễ điều chỉnh nhiệt độ hơn một áo dày. Giữ áo trong gọn để cardigan không phồng; màu navy và be tạo nền linh hoạt cho trang sức hoặc túi sẵn có."
+    },
+    {
+      "slug": "business-casual",
+      "kind": "outfit",
+      "outfitKey": "business-casual-1",
+      "caption": "Họp nhóm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style business-casual. Depict exactly: Blazer beige; Blouse ivory; Quần than; Giày gót thấp. Lớp ngoài tạo sự chỉn chu, blouse mềm tránh cảm giác suit quá cứng."
+    },
+    {
+      "slug": "business-casual",
+      "kind": "outfit",
+      "outfitKey": "business-casual-2",
+      "caption": "Không blazer",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style business-casual. Depict exactly: Sơ mi xanh nhạt; Quần navy; Loafer nâu; Túi laptop. Cổ sơ mi và ly quần duy trì nền công sở khi bỏ áo khoác."
+    },
+    {
+      "slug": "business-casual",
+      "kind": "outfit",
+      "outfitKey": "business-casual-3",
+      "caption": "Knit văn phòng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style business-casual. Depict exactly: Áo knit kem cổ tròn; Váy midi xám; Giày bệt kín; Đồng hồ. Knit không quá mỏng kết hợp midi ít xẻ giúp ngồi và di chuyển dễ dàng."
+    },
+    {
+      "slug": "business-casual",
+      "kind": "outfit",
+      "outfitKey": "business-casual-4",
+      "caption": "Ngày linh hoạt",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style business-casual. Depict exactly: Polo navy; Chino beige; Sneaker da trắng; Dây lưng. Chọn khi dress code cho phép; polo có cổ đứng giúp giày thể thao bớt tùy tiện."
+    },
+    {
+      "slug": "business-casual",
+      "kind": "outfit",
+      "outfitKey": "business-casual-5",
+      "caption": "Sau giờ làm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style business-casual. Depict exactly: Sơ mi ivory; Quần nâu; Blazer charcoal; Mule kín mũi. Các món trơn có thể giữ nguyên khi ăn tối, chỉ bỏ túi laptop và mở một nút cổ."
+    },
+    {
+      "slug": "smart-casual",
+      "kind": "outfit",
+      "outfitKey": "smart-casual-1",
+      "caption": "Blazer và tee",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style smart-casual. Depict exactly: Blazer olive; Tee trắng; Jeans tối; Sneaker da. Áo trong không họa tiết giúp blazer là nét chính, jeans thẳng nối độ thoải mái với cấu trúc."
+    },
+    {
+      "slug": "smart-casual",
+      "kind": "outfit",
+      "outfitKey": "smart-casual-2",
+      "caption": "Overshirt gọn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style smart-casual. Depict exactly: Overshirt beige; Áo knit navy; Chino; Loafer. Overshirt đứng vừa thay áo khoác nặng, loafer nâng mức trang trọng của lớp trên."
+    },
+    {
+      "slug": "smart-casual",
+      "kind": "outfit",
+      "outfitKey": "smart-casual-3",
+      "caption": "Midi và sneaker",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style smart-casual. Depict exactly: Áo polo kem; Váy midi đen; Sneaker trắng; Túi nhỏ. Cổ polo và chiều dài midi giữ outfit gọn dù giày rất thoải mái."
+    },
+    {
+      "slug": "smart-casual",
+      "kind": "outfit",
+      "outfitKey": "smart-casual-4",
+      "caption": "Sơ mi denim",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style smart-casual. Depict exactly: Sơ mi xanh; Quần âu xám; Giày derby; Túi canvas trơn. Độ mềm của áo đi cùng quần có ly tạo sự cân bằng thay vì toàn bộ đồ formal."
+    },
+    {
+      "slug": "smart-casual",
+      "kind": "outfit",
+      "outfitKey": "smart-casual-5",
+      "caption": "Knit sau giờ làm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style smart-casual. Depict exactly: Cardigan nâu; Tee ivory; Jeans navy; Boot suede. Suede và knit bổ sung bề mặt mềm, nền navy giữ bộ đồ không quá casual."
+    },
+    {
+      "slug": "romantic",
+      "kind": "outfit",
+      "outfitKey": "romantic-1",
+      "caption": "Váy wrap mềm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style romantic. Depict exactly: Váy wrap hồng bụi; Sandal gót thấp; Túi kem; Khuyên nhỏ. Đường wrap tạo chéo nhẹ, phụ kiện không nhiều họa tiết để váy giữ vai trò chính."
+    },
+    {
+      "slug": "romantic",
+      "kind": "outfit",
+      "outfitKey": "romantic-2",
+      "caption": "Blouse và quần",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style romantic. Depict exactly: Blouse tay bồng; Quần ivory; Giày bệt; Túi sage. Quần suông tiết chế độ điệu của tay áo, cùng sắc sáng làm bộ đồ thoáng."
+    },
+    {
+      "slug": "romantic",
+      "kind": "outfit",
+      "outfitKey": "romantic-3",
+      "caption": "Hoa nhỏ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style romantic. Depict exactly: Váy hoa midi; Cardigan kem; Mary Jane; Túi trơn. Hoa nhỏ cần một lớp ngoài trơn để mắt có nơi nghỉ, giày gọn giữ nét dịu."
+    },
+    {
+      "slug": "romantic",
+      "kind": "outfit",
+      "outfitKey": "romantic-4",
+      "caption": "Satin ban ngày",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style romantic. Depict exactly: Áo cotton cổ vuông; Váy satin matte; Sandal nâu; Dây chuyền mảnh. Cotton giảm mức trang trọng của satin và phù hợp ăn trưa hơn một bộ bóng toàn phần."
+    },
+    {
+      "slug": "romantic",
+      "kind": "outfit",
+      "outfitKey": "romantic-5",
+      "caption": "Knit mùa mát",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style romantic. Depict exactly: Knit hồng trầm; Váy bias nâu; Boot thấp; Khăn kem. Phần trên mềm có độ dày tương phản với bias rủ, boot giúp outfit dùng được ngày mát."
+    },
+    {
+      "slug": "coquette",
+      "kind": "outfit",
+      "outfitKey": "coquette-1",
+      "caption": "Một chiếc nơ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style coquette. Depict exactly: Blouse kem có nơ đen; Váy A hồng; Mary Jane; Túi nhỏ. Một nơ đen trên nền sáng có độ rõ cao, phụ kiện còn lại không cần thêm nơ."
+    },
+    {
+      "slug": "coquette",
+      "kind": "outfit",
+      "outfitKey": "coquette-2",
+      "caption": "Ren và denim",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style coquette. Depict exactly: Áo viền ren; Jeans thẳng; Ballet kem; Kẹp ngọc trai. Denim khiến ren dễ mặc hàng ngày, kẹp nhỏ chỉ nối tinh thần mềm."
+    },
+    {
+      "slug": "coquette",
+      "kind": "outfit",
+      "outfitKey": "coquette-3",
+      "caption": "Cardigan gọn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style coquette. Depict exactly: Cardigan hồng; Quần đen; Giày quai ngang; Túi ivory. Quần trơn tạo khung chắc để cardigan màu ngọt không trở thành một bộ quá điệu."
+    },
+    {
+      "slug": "coquette",
+      "kind": "outfit",
+      "outfitKey": "coquette-4",
+      "caption": "Midi và tóc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style coquette. Depict exactly: Áo knit kem; Váy midi satin; Loafer; Nơ tóc mảnh. Nơ đặt ở tóc thay vì quần áo giữ mặt trước outfit ít chi tiết."
+    },
+    {
+      "slug": "coquette",
+      "kind": "outfit",
+      "outfitKey": "coquette-5",
+      "caption": "Nơ tháo rời",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style coquette. Depict exactly: Sơ mi cổ kín; Quần navy; Giày bệt; Nơ cổ nhỏ. Nơ có thể bỏ khi cần trang trọng hơn; sơ mi và quần vẫn dùng độc lập."
+    },
+    {
+      "slug": "balletcore",
+      "kind": "outfit",
+      "outfitKey": "balletcore-1",
+      "caption": "Wrap ban ngày",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style balletcore. Depict exactly: Cardigan wrap hồng; Tank ivory; Váy knit xám; Ballet da. Giữ váy trơn ít nếp để áo wrap là điểm nhìn, tank nền giúp cổ mở vẫn kín."
+    },
+    {
+      "slug": "balletcore",
+      "kind": "outfit",
+      "outfitKey": "balletcore-2",
+      "caption": "Quần mềm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style balletcore. Depict exactly: Áo dài tay cổ thuyền; Quần jersey thẳng; Ballet kem; Túi vải. Quần jersey dễ cử động, cổ thuyền và giày thấp gợi ballet mà không cần chân váy."
+    },
+    {
+      "slug": "balletcore",
+      "kind": "outfit",
+      "outfitKey": "balletcore-3",
+      "caption": "Tulle tiết chế",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style balletcore. Depict exactly: Knit fitted xám; Váy tulle midi có lót; Sandal thấp; Túi nhỏ. Một lớp tulle vừa đủ phối với áo gọn, lớp lót đảm bảo dùng được ban ngày."
+    },
+    {
+      "slug": "balletcore",
+      "kind": "outfit",
+      "outfitKey": "balletcore-4",
+      "caption": "Denim dịu",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style balletcore. Depict exactly: Cardigan kem; Áo cổ vuông; Jeans xanh nhạt; Giày quai mảnh. Denim tạo nền casual, áo cổ vuông nối cảm hứng trang phục tập múa."
+    },
+    {
+      "slug": "balletcore",
+      "kind": "outfit",
+      "outfitKey": "balletcore-5",
+      "caption": "Ngày se lạnh",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style balletcore. Depict exactly: Knit wrap ivory; Quần suông xám; Coat hồng trầm; Giày bệt kín. Quần và giày kín tăng tiện dụng, màu hồng nằm ở áo khoác giúp lớp trong dễ phối lại."
+    },
+    {
+      "slug": "cottagecore",
+      "kind": "outfit",
+      "outfitKey": "cottagecore-1",
+      "caption": "Hoa vườn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style cottagecore. Depict exactly: Váy hoa sage midi; Boot nâu thấp; Túi đan; Khăn cotton. Boot và gấu midi giữ tính thực dụng, khăn chỉ dùng khi cần che nắng."
+    },
+    {
+      "slug": "cottagecore",
+      "kind": "outfit",
+      "outfitKey": "cottagecore-2",
+      "caption": "Linen mộc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style cottagecore. Depict exactly: Blouse linen kem; Váy A nâu; Sandal da; Túi canvas. Bề mặt linen và canvas cùng mộc, váy ít nếp giảm độ điệu của blouse."
+    },
+    {
+      "slug": "cottagecore",
+      "kind": "outfit",
+      "outfitKey": "cottagecore-3",
+      "caption": "Quần thay váy",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style cottagecore. Depict exactly: Áo tay bồng trắng; Quần linen sage; Sandal thấp; Túi đan. Quần rộng vừa hỗ trợ đi bộ, tay bồng là dấu hiệu cottage duy nhất cần nhấn."
+    },
+    {
+      "slug": "cottagecore",
+      "kind": "outfit",
+      "outfitKey": "cottagecore-4",
+      "caption": "Cardigan hoa nhỏ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style cottagecore. Depict exactly: Cardigan kem; Váy hoa tối; Mary Jane; Túi nâu. Hoa nền tối giữ bộ đồ dùng được ngày mát, knit tăng cảm giác ấm mềm."
+    },
+    {
+      "slug": "cottagecore",
+      "kind": "outfit",
+      "outfitKey": "cottagecore-5",
+      "caption": "Crochet nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style cottagecore. Depict exactly: Gile crochet; Sơ mi cotton; Quần beige; Giày vải. Áo sơ mi kín dưới crochet tránh xuyên và cho phép tháo gile khi nóng."
+    },
+    {
+      "slug": "soft-girl",
+      "kind": "outfit",
+      "outfitKey": "soft-girl-1",
+      "caption": "Lavender denim",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style soft-girl. Depict exactly: Cardigan lavender; Tee trắng; Jeans xanh nhạt; Sneaker trắng. Denim xanh tạo nền quen thuộc, cardigan là vùng màu ngọt chính."
+    },
+    {
+      "slug": "soft-girl",
+      "kind": "outfit",
+      "outfitKey": "soft-girl-2",
+      "caption": "Peach gọn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style soft-girl. Depict exactly: Áo knit peach; Váy A kem; Giày bệt; Túi xám. Túi xám làm dịu tổ hợp hồng và kem, váy A không quá nhiều nếp."
+    },
+    {
+      "slug": "soft-girl",
+      "kind": "outfit",
+      "outfitKey": "soft-girl-3",
+      "caption": "Pastel ở phụ kiện",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style soft-girl. Depict exactly: Sweatshirt xám; Quần trắng; Sneaker kem; Túi lavender. Phụ kiện nhỏ cho thử pastel mà không phải mua nhiều áo màu mới."
+    },
+    {
+      "slug": "soft-girl",
+      "kind": "outfit",
+      "outfitKey": "soft-girl-4",
+      "caption": "Sơ mi mềm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style soft-girl. Depict exactly: Sơ mi xanh phấn; Quần denim trắng; Mary Jane; Kẹp hoa nhỏ. Sơ mi giữ cổ gọn, kẹp nhỏ nối tinh thần mềm mà không cần hình in."
+    },
+    {
+      "slug": "soft-girl",
+      "kind": "outfit",
+      "outfitKey": "soft-girl-5",
+      "caption": "Mùa mát dịu",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style soft-girl. Depict exactly: Cardigan hồng nhạt; Áo kem; Quần xám thẳng; Boot ivory. Nền xám giúp lớp hồng dùng được ngoài ngữ cảnh quá dễ thương."
+    },
+    {
+      "slug": "princesscore",
+      "kind": "outfit",
+      "outfitKey": "princesscore-1",
+      "caption": "Midi champagne",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style princesscore. Depict exactly: Váy cổ vuông champagne; Kitten heel kem; Túi ngọc trai; Khuyên nhỏ. Váy đủ cấu trúc đã là điểm chính, giày thấp làm bộ đồ dùng được buổi gặp dài."
+    },
+    {
+      "slug": "princesscore",
+      "kind": "outfit",
+      "outfitKey": "princesscore-2",
+      "caption": "Thân áo định hình",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style princesscore. Depict exactly: Top có đường may eo; Quần ivory; Giày bệt mũi nhọn; Túi rose. Quần suông giảm độ lễ phục của thân áo, không cần corset nén người."
+    },
+    {
+      "slug": "princesscore",
+      "kind": "outfit",
+      "outfitKey": "princesscore-3",
+      "caption": "Tulle gọn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style princesscore. Depict exactly: Cardigan fitted kem; Váy tulle midi; Mary Jane; Túi nhỏ. Knit giản dị cân bằng tulle, số tầng ít giúp đi lại và lên xe dễ hơn."
+    },
+    {
+      "slug": "princesscore",
+      "kind": "outfit",
+      "outfitKey": "princesscore-4",
+      "caption": "Jacquard nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style princesscore. Depict exactly: Blouse trơn; Váy A jacquard; Sandal thấp; Vòng ngọc trai nhỏ. Jacquard tạo một vùng hoa văn, các món trơn giữ outfit không quá nhiều trang trí."
+    },
+    {
+      "slug": "princesscore",
+      "kind": "outfit",
+      "outfitKey": "princesscore-5",
+      "caption": "Đời thường có điểm nhấn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style princesscore. Depict exactly: Áo cổ vuông ivory; Jeans thẳng; Ballet satin; Túi kem. Jeans hạ độ trang trọng, cổ áo và giày mềm đủ gợi Princesscore."
+    },
+    {
+      "slug": "fairycore",
+      "kind": "outfit",
+      "outfitKey": "fairycore-1",
+      "caption": "Lá và chiffon",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style fairycore. Depict exactly: Top crochet có lót; Váy chiffon sage; Boot nâu; Pendant lá. Top gọn giữ lớp váy là vùng chuyển động chính, pendant nhỏ đủ gợi thiên nhiên."
+    },
+    {
+      "slug": "fairycore",
+      "kind": "outfit",
+      "outfitKey": "fairycore-2",
+      "caption": "Sage đi phố",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style fairycore. Depict exactly: Áo knit rêu; Quần linen kem; Sandal phẳng; Khăn mỏng. Khăn tạo một lớp nhẹ thay chân váy cầu kỳ, quần giữ tính tiện dụng."
+    },
+    {
+      "slug": "fairycore",
+      "kind": "outfit",
+      "outfitKey": "fairycore-3",
+      "caption": "Midi hữu cơ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style fairycore. Depict exactly: Váy bias màu lá; Cardigan ivory; Giày bệt; Túi mềm. Bias rủ cho đường cong tự nhiên, cardigan có thể tháo khi nóng."
+    },
+    {
+      "slug": "fairycore",
+      "kind": "outfit",
+      "outfitKey": "fairycore-4",
+      "caption": "Mesh kín nền",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style fairycore. Depict exactly: Áo mesh sage; Tank kín cùng tông; Quần nâu; Boot thấp. Hai lớp cùng tông làm mesh có chiều sâu nhưng vẫn che kín."
+    },
+    {
+      "slug": "fairycore",
+      "kind": "outfit",
+      "outfitKey": "fairycore-5",
+      "caption": "Crochet mộc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style fairycore. Depict exactly: Gile crochet kem; Sơ mi cotton; Váy A rêu; Mary Jane. Sơ mi bảo vệ da khỏi crochet, váy A ít lớp giúp bộ đồ dễ giặt và dùng lại."
+    },
+    {
+      "slug": "clean-girl",
+      "kind": "outfit",
+      "outfitKey": "clean-girl-1",
+      "caption": "Tank và quần",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style clean-girl. Depict exactly: Tank ivory rib; Quần beige suông; Sneaker trắng; Khuyên nhỏ. Rib đủ dày giữ nền kín, quần có đường dọc cân bằng áo gọn."
+    },
+    {
+      "slug": "clean-girl",
+      "kind": "outfit",
+      "outfitKey": "clean-girl-2",
+      "caption": "Sơ mi mở",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style clean-girl. Depict exactly: Tee kem; Jeans thẳng; Sơ mi trắng; Túi tan. Sơ mi mở tạo lớp thoáng, áo trong gọn giữ tổng thể không quá nhiều khối."
+    },
+    {
+      "slug": "clean-girl",
+      "kind": "outfit",
+      "outfitKey": "clean-girl-3",
+      "caption": "Knit và midi",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style clean-girl. Depict exactly: Knit beige; Váy midi ivory; Sandal da; Túi nâu. Hai sắc sáng khác chất liệu tạo chiều sâu, túi nâu giúp không nhạt toàn bộ."
+    },
+    {
+      "slug": "clean-girl",
+      "kind": "outfit",
+      "outfitKey": "clean-girl-4",
+      "caption": "Một màu tối",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style clean-girl. Depict exactly: Áo đen cổ tròn; Quần đen thẳng; Loafer; Khuyên vàng nhỏ. Nền tối vẫn phù hợp tinh thần gọn; điểm kim loại chỉ cần ở tai."
+    },
+    {
+      "slug": "clean-girl",
+      "kind": "outfit",
+      "outfitKey": "clean-girl-5",
+      "caption": "Thoáng mùa nóng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style clean-girl. Depict exactly: Sơ mi linen kem; Quần short dài beige; Sandal thấp; Túi canvas. Độ dài short được chọn để ngồi dễ, linen giữ outfit nhẹ ngoài trời."
+    },
+    {
+      "slug": "streetwear",
+      "kind": "outfit",
+      "outfitKey": "streetwear-1",
+      "caption": "Cargo đường phố",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style streetwear. Depict exactly: Tee charcoal rộng; Cargo cát; Sneaker xám; Cap đen. Cargo có khối ở chân nên tee giữ đường gấu rõ; cap là một điểm phụ kiện gọn."
+    },
+    {
+      "slug": "streetwear",
+      "kind": "outfit",
+      "outfitKey": "streetwear-2",
+      "caption": "Bomber nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style streetwear. Depict exactly: Tee ivory; Jeans tối rộng; Bomber olive; Sneaker trắng. Lớp bomber kết thúc ngang hông giúp quần rộng không kéo dài toàn bộ thân."
+    },
+    {
+      "slug": "streetwear",
+      "kind": "outfit",
+      "outfitKey": "streetwear-3",
+      "caption": "Hoodie tối giản",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style streetwear. Depict exactly: Hoodie xám; Quần thẳng đen; Sneaker đen trắng; Túi sling. Hoodie là khối rộng duy nhất, quần thẳng và sling nhỏ giữ nhịp sạch."
+    },
+    {
+      "slug": "streetwear",
+      "kind": "outfit",
+      "outfitKey": "streetwear-4",
+      "caption": "Overshirt và tee",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style streetwear. Depict exactly: Overshirt cát; Tee đen; Quần denim xám; Giày skate. Áo ngoài mở tạo đường dọc, màu gần nhau làm ba lớp bớt nặng."
+    },
+    {
+      "slug": "streetwear",
+      "kind": "outfit",
+      "outfitKey": "streetwear-5",
+      "caption": "Thể thao đô thị",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style streetwear. Depict exactly: Áo jersey trơn; Quần nylon đen; Sneaker sáng; Túi nhỏ. Quần nylon chọn có gấu gọn, giày sáng làm điểm kết thúc thay nhiều phụ kiện."
+    },
+    {
+      "slug": "grunge",
+      "kind": "outfit",
+      "outfitKey": "grunge-1",
+      "caption": "Flannel nền",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style grunge. Depict exactly: Tee faded xám; Jeans tối; Flannel burgundy; Boot đen. Tee phai và flannel đủ bề mặt, jeans ít rách giữ bộ đồ không quá nhiều tín hiệu."
+    },
+    {
+      "slug": "grunge",
+      "kind": "outfit",
+      "outfitKey": "grunge-2",
+      "caption": "Knit và denim",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style grunge. Depict exactly: Knit rộng charcoal; Jeans xanh bạc; Giày canvas; Túi vải. Knit thô đi cùng denim cũ tạo chiều sâu mà không cần phụ kiện nặng."
+    },
+    {
+      "slug": "grunge",
+      "kind": "outfit",
+      "outfitKey": "grunge-3",
+      "caption": "Midi alternative",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style grunge. Depict exactly: Tee đen; Váy midi họa tiết tối; Boot lace-up; Áo denim. Váy mềm cân bằng boot, áo denim có thể mở để không thêm nhiều khối."
+    },
+    {
+      "slug": "grunge",
+      "kind": "outfit",
+      "outfitKey": "grunge-4",
+      "caption": "Một mảng sờn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style grunge. Depict exactly: Overshirt rêu; Tee kem; Jeans sờn gối nhẹ; Sneaker tối. Chỉ denim có chi tiết sờn, các món còn lại làm khung sạch và dễ dùng."
+    },
+    {
+      "slug": "grunge",
+      "kind": "outfit",
+      "outfitKey": "grunge-5",
+      "caption": "Flannel mở",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style grunge. Depict exactly: Sơ mi kẻ mở; Tank kín đen; Quần thẳng xám; Boot thấp. Lớp trong trơn tránh kẻ cạnh tranh với hình in, boot thấp dễ đi dài hơn."
+    },
+    {
+      "slug": "punk",
+      "kind": "outfit",
+      "outfitKey": "punk-1",
+      "caption": "Tartan chủ đạo",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style punk. Depict exactly: Biker đen; Tee ivory; Quần tartan đỏ; Boot combat. Quần là vùng họa tiết chính, tee trơn làm khoảng nghỉ giữa tartan và jacket."
+    },
+    {
+      "slug": "punk",
+      "kind": "outfit",
+      "outfitKey": "punk-2",
+      "caption": "DIY denim",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style punk. Depict exactly: Gile denim; Áo thun đen; Quần xám; Derby dày. Một patch do bạn tự thiết kế có thể thay logo, giày chắc nối phần khung jacket."
+    },
+    {
+      "slug": "punk",
+      "kind": "outfit",
+      "outfitKey": "punk-3",
+      "caption": "Punk tiết chế",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style punk. Depict exactly: Sơ mi tartan; Quần đen; Boot thấp; Vòng bạc nhỏ. Tartan giữ cảm hứng mà không cần đồ da, phù hợp ngày cần di chuyển nhiều."
+    },
+    {
+      "slug": "punk",
+      "kind": "outfit",
+      "outfitKey": "punk-4",
+      "caption": "Váy và khóa",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style punk. Depict exactly: Top đen; Váy A tartan; Giày lace-up; Túi khóa nhỏ. Váy gọn giảm khối ở chân, một chiếc túi khóa tạo dấu hiệu kim loại có kiểm soát."
+    },
+    {
+      "slug": "punk",
+      "kind": "outfit",
+      "outfitKey": "punk-5",
+      "caption": "Đen có texture",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style punk. Depict exactly: Áo knit đen; Jeans charcoal; Jacket giả da; Giày đen. Khác biệt texture đủ tạo sức nặng, không cần thêm chuỗi dài hoặc đinh ở mọi món."
+    },
+    {
+      "slug": "edgy",
+      "kind": "outfit",
+      "outfitKey": "edgy-1",
+      "caption": "Bất đối xứng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style edgy. Depict exactly: Top cổ cao đen; Váy midi charcoal bất đối xứng; Boot góc cạnh; Khuyên bạc. Đường gấu là điểm nhìn, cổ cao và khuyên nhỏ giữ vùng trên gọn."
+    },
+    {
+      "slug": "edgy",
+      "kind": "outfit",
+      "outfitKey": "edgy-2",
+      "caption": "Jacket hộp",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style edgy. Depict exactly: Jacket giả da; Tee xám; Quần thẳng đen; Derby. Jacket có vai rõ cần quần ít túi để hai khối không cạnh tranh."
+    },
+    {
+      "slug": "edgy",
+      "kind": "outfit",
+      "outfitKey": "edgy-3",
+      "caption": "Một chi tiết kim loại",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style edgy. Depict exactly: Sơ mi đen; Quần xám rộng; Giày đen; Túi bạc nhỏ. Túi kim loại làm điểm sáng duy nhất, vải trơn giữ bộ đồ có thể dùng nhiều dịp."
+    },
+    {
+      "slug": "edgy",
+      "kind": "outfit",
+      "outfitKey": "edgy-4",
+      "caption": "Denim sắc nét",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style edgy. Depict exactly: Áo knit fitted; Jeans đen; Áo khoác ngắn; Boot thấp. Tỷ lệ áo ngắn và quần thẳng tạo nét mạnh mà không cần độ hở."
+    },
+    {
+      "slug": "edgy",
+      "kind": "outfit",
+      "outfitKey": "edgy-5",
+      "caption": "Edgy sáng nền",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style edgy. Depict exactly: Top ivory; Quần charcoal; Gile đen; Giày mũi vuông. Nền sáng làm đường biên gile nổi rõ, mũi vuông nối ngôn ngữ hình học."
+    },
+    {
+      "slug": "skater",
+      "kind": "outfit",
+      "outfitKey": "skater-1",
+      "caption": "Relaxed denim",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style skater. Depict exactly: Tee xanh rừng; Jeans relaxed; Giày skate đen; Tất trắng. Gấu xắn vừa để giày hiện rõ, tee không quá dài giúp bước chân thoải mái."
+    },
+    {
+      "slug": "skater",
+      "kind": "outfit",
+      "outfitKey": "skater-2",
+      "caption": "Overshirt cát",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style skater. Depict exactly: Overshirt beige; Tee trắng; Quần twill navy; Giày canvas. Lớp ngoài có thể tháo khi nóng, quần twill ít túi giảm vật vướng."
+    },
+    {
+      "slug": "skater",
+      "kind": "outfit",
+      "outfitKey": "skater-3",
+      "caption": "Short ngày nóng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style skater. Depict exactly: Tee xám; Short dài đen; Giày đế phẳng; Cap xanh. Short có độ dài phù hợp khi ngồi, cap là điểm màu nhỏ nối nét casual."
+    },
+    {
+      "slug": "skater",
+      "kind": "outfit",
+      "outfitKey": "skater-4",
+      "caption": "Kẻ nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style skater. Depict exactly: Sơ mi kẻ mở; Áo trơn; Jeans thẳng; Sneaker thấp. Kẻ là vùng hình ảnh chính, lớp trong không in giúp outfit dễ dùng lại."
+    },
+    {
+      "slug": "skater",
+      "kind": "outfit",
+      "outfitKey": "skater-5",
+      "caption": "Mùa mát linh hoạt",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style skater. Depict exactly: Sweatshirt forest; Quần denim tối; Giày skate; Túi canvas. Sweatshirt cần cổ tay gọn, túi có thể bỏ khi vận động để tránh đung đưa."
+    },
+    {
+      "slug": "y2k",
+      "kind": "outfit",
+      "outfitKey": "y2k-1",
+      "caption": "Baby tee denim",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style y2k. Depict exactly: Baby tee xanh; Jeans bootcut; Sneaker platform nhẹ; Túi bạc. Áo gọn đối lập ống hơi loe, túi compact tạo điểm sáng thay nhiều trang sức."
+    },
+    {
+      "slug": "y2k",
+      "kind": "outfit",
+      "outfitKey": "y2k-2",
+      "caption": "Cardigan nhỏ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style y2k. Depict exactly: Cardigan ngắn hồng; Tank kín; Jeans cạp vừa; Giày đế thấp. Hai lớp trên kết thúc gần cạp giữ tỷ lệ Y2K mà không cần hở thân."
+    },
+    {
+      "slug": "y2k",
+      "kind": "outfit",
+      "outfitKey": "y2k-3",
+      "caption": "Denim midi",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style y2k. Depict exactly: Tee trắng fitted; Váy denim midi; Sneaker; Túi baguette. Đường ôm của áo đi cùng denim thẳng, túi vai nhỏ nối tinh thần giao thời."
+    },
+    {
+      "slug": "y2k",
+      "kind": "outfit",
+      "outfitKey": "y2k-4",
+      "caption": "Bạc ở phụ kiện",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style y2k. Depict exactly: Áo knit đen; Quần cargo xám; Giày trắng; Túi bạc. Cargo tạo phần khối còn bạc nằm ở một món dễ tháo, tránh toàn bộ outfit phản sáng."
+    },
+    {
+      "slug": "y2k",
+      "kind": "outfit",
+      "outfitKey": "y2k-5",
+      "caption": "Bootcut nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style y2k. Depict exactly: Sơ mi ngắn xanh; Quần bootcut navy; Sandal dày thấp; Túi vai. Sơ mi kín cổ có thể thay baby tee, ống loe vừa để gấu không chạm đất."
+    },
+    {
+      "slug": "techwear",
+      "kind": "outfit",
+      "outfitKey": "techwear-1",
+      "caption": "Shell đô thị",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style techwear. Depict exactly: Shell đen; Tee graphite; Cargo gối tạo phom; Trail sneaker. Quần giữ khoảng ở gối, shell có thể mở để điều tiết nhiệt thay mặc kín mọi lúc."
+    },
+    {
+      "slug": "techwear",
+      "kind": "outfit",
+      "outfitKey": "techwear-2",
+      "caption": "Kỹ thuật mùa nóng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style techwear. Depict exactly: Overshirt nylon; Tee xám; Quần thẳng tối; Sling nhỏ. Một lớp nhẹ và ít túi giúp Techwear dùng được khi nhiệt độ cao."
+    },
+    {
+      "slug": "techwear",
+      "kind": "outfit",
+      "outfitKey": "techwear-3",
+      "caption": "Cargo có kiểm soát",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style techwear. Depict exactly: Top cổ cao mỏng; Cargo charcoal; Giày đen; Túi hông gọn. Cargo là khối chính, túi hông để nhẹ tránh nặng vùng eo khi ngồi."
+    },
+    {
+      "slug": "techwear",
+      "kind": "outfit",
+      "outfitKey": "techwear-4",
+      "caption": "Ngày mưa nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style techwear. Depict exactly: Jacket mưa có thông số; Áo nhanh khô; Quần gấu gọn; Giày phù hợp mưa. Chọn đồ theo nhãn sản phẩm và thời tiết, không coi ảnh tham khảo là chứng nhận chống nước."
+    },
+    {
+      "slug": "techwear",
+      "kind": "outfit",
+      "outfitKey": "techwear-5",
+      "caption": "Tối giản kỹ thuật",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style techwear. Depict exactly: Áo zip tối; Quần stretch thẳng; Sneaker đen; Túi compact. Khóa zip và bề mặt vải tạo tín hiệu kỹ thuật mà không cần dây trang trí."
+    },
+    {
+      "slug": "gorpcore",
+      "kind": "outfit",
+      "outfitKey": "gorpcore-1",
+      "caption": "Shell màu đất",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style gorpcore. Depict exactly: Shell cam đất; Fleece đá; Quần olive; Trail sneaker. Cam tạo vùng màu chính, lớp fleece có thể bỏ khi nóng và quần gấu gọn không vướng đế."
+    },
+    {
+      "slug": "gorpcore",
+      "kind": "outfit",
+      "outfitKey": "gorpcore-2",
+      "caption": "Fleece thành lớp ngoài",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style gorpcore. Depict exactly: Fleece beige; Tee trắng; Jeans thẳng; Sneaker trail nhẹ. Denim giảm tính chuyên môn của fleece, giày được chọn để đi phố thực tế."
+    },
+    {
+      "slug": "gorpcore",
+      "kind": "outfit",
+      "outfitKey": "gorpcore-3",
+      "caption": "Outdoor ban ngày",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style gorpcore. Depict exactly: Áo nhanh khô olive; Quần twill cát; Giày thể thao; Cap. Nền ít lớp hợp thời tiết nóng, cap là phụ kiện chức năng thay trang sức."
+    },
+    {
+      "slug": "gorpcore",
+      "kind": "outfit",
+      "outfitKey": "gorpcore-4",
+      "caption": "Gile linh hoạt",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style gorpcore. Depict exactly: Gile outdoor; Áo dài tay cotton; Quần charcoal; Sneaker. Gile giữ tín hiệu túi chức năng, áo tay dài dễ thay theo nhiệt độ."
+    },
+    {
+      "slug": "gorpcore",
+      "kind": "outfit",
+      "outfitKey": "gorpcore-5",
+      "caption": "Mưa trong phố",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style gorpcore. Depict exactly: Shell có thông số mưa; Tee mỏng; Quần gấu chỉnh; Giày phù hợp nước. Trang phục được chọn theo điều kiện mưa thật, không lấy chất liệu trông bóng làm căn cứ."
+    },
+    {
+      "slug": "vintage",
+      "kind": "outfit",
+      "outfitKey": "vintage-1",
+      "caption": "Blouse eo cao",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style vintage. Depict exactly: Blouse kem có cổ; Váy teal midi; Giày thấp nâu; Túi hộp. Blouse sơ vin giữ điểm eo rõ, giày thấp đưa phom tham khảo vào đời thường."
+    },
+    {
+      "slug": "vintage",
+      "kind": "outfit",
+      "outfitKey": "vintage-2",
+      "caption": "Denim cổ điển",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style vintage. Depict exactly: Cardigan trầm; Jeans eo cao; Loafer; Túi da nhỏ. Denim làm cardigan có texture bớt trang trọng, kiểm tra phần eo khi ngồi."
+    },
+    {
+      "slug": "vintage",
+      "kind": "outfit",
+      "outfitKey": "vintage-3",
+      "caption": "Váy hoa nền tối",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style vintage. Depict exactly: Váy hoa midi; Jacket ngắn; Mary Jane; Khuyên nhỏ. Jacket kết thúc ở eo để giữ phom váy, các món khác trơn tránh nhiều tín hiệu thời kỳ."
+    },
+    {
+      "slug": "vintage",
+      "kind": "outfit",
+      "outfitKey": "vintage-4",
+      "caption": "Sơ mi và ly",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style vintage. Depict exactly: Sơ mi cotton; Quần pleat nâu; Derby; Dây lưng. Quần có ly tạo dấu hiệu cũ, sơ mi được chọn vừa vai để dùng thực tế."
+    },
+    {
+      "slug": "vintage",
+      "kind": "outfit",
+      "outfitKey": "vintage-5",
+      "caption": "Một món sưu tầm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style vintage. Depict exactly: Áo vintage thật; Quần đen trơn; Giày bệt hiện đại; Túi đơn giản. Áo là món cần bảo toàn chi tiết, phần còn lại không cạnh tranh và dễ thay."
+    },
+    {
+      "slug": "bohemian",
+      "kind": "outfit",
+      "outfitKey": "bohemian-1",
+      "caption": "Maxi mộc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style bohemian. Depict exactly: Blouse thêu ivory; Váy maxi ochre; Boot suede; Túi đan. Thêu và họa tiết được chia ở hai vùng, gấu maxi không phủ đế boot."
+    },
+    {
+      "slug": "bohemian",
+      "kind": "outfit",
+      "outfitKey": "bohemian-2",
+      "caption": "Quần linen tự do",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style bohemian. Depict exactly: Áo cotton buông; Quần linen rộng; Sandal da; Pendant nhỏ. Quần thay váy giữ độ tự do, pendant nhỏ là điểm màu thay nhiều vòng."
+    },
+    {
+      "slug": "bohemian",
+      "kind": "outfit",
+      "outfitKey": "bohemian-3",
+      "caption": "Denim và thêu",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style bohemian. Depict exactly: Blouse thêu xanh; Jeans thẳng; Giày suede; Túi canvas. Denim trung hòa blouse có chi tiết, phần trên chọn gấu vừa hông."
+    },
+    {
+      "slug": "bohemian",
+      "kind": "outfit",
+      "outfitKey": "bohemian-4",
+      "caption": "Knit thủ công",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style bohemian. Depict exactly: Gile crochet; Tee kem; Váy trơn nâu; Sandal phẳng. Nền tee kín giúp crochet thoải mái, váy trơn làm texture được nhìn rõ."
+    },
+    {
+      "slug": "bohemian",
+      "kind": "outfit",
+      "outfitKey": "bohemian-5",
+      "caption": "Boho ngày mát",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style bohemian. Depict exactly: Cardigan texture; Váy hoa nền đất; Boot thấp; Túi da. Texture knit và hoa đất dùng chung sắc độ để không trở thành nhiều bảng màu khác nhau."
+    },
+    {
+      "slug": "artsy",
+      "kind": "outfit",
+      "outfitKey": "artsy-1",
+      "caption": "Khối cobalt",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style artsy. Depict exactly: Tunic cobalt; Quần ivory rộng; Sandal đen; Vòng rust. Khối tunic được tách rõ trên quần sáng, một vòng màu đất cân bằng xanh bão hòa."
+    },
+    {
+      "slug": "artsy",
+      "kind": "outfit",
+      "outfitKey": "artsy-2",
+      "caption": "Áo gọn váy lạ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style artsy. Depict exactly: Top đen trơn; Váy bất đối xứng; Giày bệt; Túi hình học. Áo trơn là vùng nghỉ cho gấu váy, túi chỉ lặp hình khối ở kích cỡ nhỏ."
+    },
+    {
+      "slug": "artsy",
+      "kind": "outfit",
+      "outfitKey": "artsy-3",
+      "caption": "Màu ở phụ kiện",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style artsy. Depict exactly: Sơ mi ivory; Quần charcoal; Giày sculptural; Túi cobalt. Hai phụ kiện khác kích cỡ giúp thử Artsy mà không cần thay tủ đồ nền."
+    },
+    {
+      "slug": "artsy",
+      "kind": "outfit",
+      "outfitKey": "artsy-4",
+      "caption": "Texture lớp ngoài",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style artsy. Depict exactly: Jacket linen texture; Tee rust; Jeans thẳng; Derby. Độ đứng jacket và tee màu đất tạo ngôn ngữ chất liệu, denim giữ tính đời thường."
+    },
+    {
+      "slug": "artsy",
+      "kind": "outfit",
+      "outfitKey": "artsy-5",
+      "caption": "Color block có neo",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style artsy. Depict exactly: Áo cobalt; Quần nâu trơn; Giày đen; Túi ivory. Nâu làm neo cho cobalt, túi sáng nhỏ kết nối tổng thể thay thêm màu thứ tư."
+    },
+    {
+      "slug": "indie",
+      "kind": "outfit",
+      "outfitKey": "indie-1",
+      "caption": "Cardigan mustard",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style indie. Depict exactly: Cardigan mustard; Tee navy washed; Quần corduroy nâu; Canvas kem. Corduroy và knit có texture nhưng màu đất gần nhau, tee tạo một vùng tối để bố cục gọn."
+    },
+    {
+      "slug": "indie",
+      "kind": "outfit",
+      "outfitKey": "indie-2",
+      "caption": "Overshirt vải gân",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style indie. Depict exactly: Overshirt corduroy; Tee ivory; Jeans thẳng; Túi canvas. Áo ngoài giữ ý tưởng texture, tote đơn giản dùng được cả ngày."
+    },
+    {
+      "slug": "indie",
+      "kind": "outfit",
+      "outfitKey": "indie-3",
+      "caption": "Kẻ nhỏ đời thường",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style indie. Depict exactly: Sơ mi kẻ nhỏ; Chino beige; Sneaker thấp; Đồng hồ. Kẻ nhỏ hợp một nền quần trơn, không thêm graphic lớn để tránh hai câu chuyện."
+    },
+    {
+      "slug": "indie",
+      "kind": "outfit",
+      "outfitKey": "indie-4",
+      "caption": "Denim vintage",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style indie. Depict exactly: Tee trơn; Jacket denim cũ; Quần charcoal; Giày vải. Jacket là món có dấu vết thời gian, nền trơn làm nét riêng của nó nhìn rõ."
+    },
+    {
+      "slug": "indie",
+      "kind": "outfit",
+      "outfitKey": "indie-5",
+      "caption": "Knit ngày mát",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style indie. Depict exactly: Knit forest; Quần nâu thẳng; Boot suede; Túi navy. Màu sâu và suede phù hợp ngày mát, gấu quần gọn để không che boot."
+    },
+    {
+      "slug": "retro",
+      "kind": "outfit",
+      "outfitKey": "retro-1",
+      "caption": "Flare màu ấm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style retro. Depict exactly: Áo cổ lọ cam; Jeans flare; Boot suede; Dây lưng kem. Áo gọn làm ống loe rõ, dây lưng sáng chỉ tạo một điểm chia tỷ lệ."
+    },
+    {
+      "slug": "retro",
+      "kind": "outfit",
+      "outfitKey": "retro-2",
+      "caption": "Hình học nhỏ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style retro. Depict exactly: Sơ mi geometric; Quần nâu thẳng; Loafer; Túi kem. Họa tiết áo là tín hiệu thời kỳ duy nhất, quần trơn giữ outfit dễ dùng."
+    },
+    {
+      "slug": "retro",
+      "kind": "outfit",
+      "outfitKey": "retro-3",
+      "caption": "Váy chữ A",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style retro. Depict exactly: Top rib ivory; Váy A cam; Mary Jane; Túi hộp. Khối A và rib gợi retro, độ dài được thử khi ngồi để vẫn thực dụng."
+    },
+    {
+      "slug": "retro",
+      "kind": "outfit",
+      "outfitKey": "retro-4",
+      "caption": "Suede nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style retro. Depict exactly: Jacket suede nâu; Tee kem; Jeans indigo; Boot thấp. Suede là bề mặt chính, denim tối giúp outfit không quá nhiều màu đất."
+    },
+    {
+      "slug": "retro",
+      "kind": "outfit",
+      "outfitKey": "retro-5",
+      "caption": "Retro mùa nóng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style retro. Depict exactly: Áo cổ bẻ mở; Quần linen camel; Sandal da; Kính đơn giản. Áo nhẹ thay cổ lọ nhưng giữ bảng màu ấm, kính chỉ là nét kết thúc nhỏ."
+    },
+    {
+      "slug": "eclectic",
+      "kind": "outfit",
+      "outfitKey": "eclectic-1",
+      "caption": "Kẻ với knit",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style eclectic. Depict exactly: Sơ mi kẻ xanh; Gile berry; Váy họa tiết ochre; Loafer xanh. Kẻ nhỏ và họa tiết lớn có quy mô khác, màu berry được giữ ở một vùng."
+    },
+    {
+      "slug": "eclectic",
+      "kind": "outfit",
+      "outfitKey": "eclectic-2",
+      "caption": "Vintage hiện đại",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style eclectic. Depict exactly: Blouse cổ điển; Quần cargo trơn; Giày bệt; Túi geometric. Cargo là nền hiện đại, blouse và túi chỉ cần chung một sắc để nối."
+    },
+    {
+      "slug": "eclectic",
+      "kind": "outfit",
+      "outfitKey": "eclectic-3",
+      "caption": "Hai mùa màu",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style eclectic. Depict exactly: Knit ochre; Quần navy; Sneaker burgundy; Túi ivory. Navy làm vùng nghỉ cho hai màu ấm, túi sáng giúp bố cục không nặng."
+    },
+    {
+      "slug": "eclectic",
+      "kind": "outfit",
+      "outfitKey": "eclectic-4",
+      "caption": "Hoa và kẻ có neo",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style eclectic. Depict exactly: Blouse hoa nhỏ; Quần kẻ mảnh; Jacket đen; Giày đen. Jacket đen và giày chung màu tạo khung cho hai họa tiết khác cỡ."
+    },
+    {
+      "slug": "eclectic",
+      "kind": "outfit",
+      "outfitKey": "eclectic-5",
+      "caption": "Đa texture ít màu",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style eclectic. Depict exactly: Top ivory; Váy denim; Cardigan crochet; Boot nâu. Texture đa dạng nhưng bảng màu hẹp giúp thử Eclectic mà không quá nhiều tương phản."
+    },
+    {
+      "slug": "hippie",
+      "kind": "outfit",
+      "outfitKey": "hippie-1",
+      "caption": "Crochet và flare",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style hippie. Depict exactly: Gile crochet kem; Blouse cotton; Jeans flare nâu; Sandal suede. Gile định hình phần trên còn quần tạo chuyển động, nền blouse kín giúp crochet dễ dùng."
+    },
+    {
+      "slug": "hippie",
+      "kind": "outfit",
+      "outfitKey": "hippie-2",
+      "caption": "Linen tự do",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style hippie. Depict exactly: Áo cotton rust; Quần linen kem; Sandal da; Túi dệt. Hai chất liệu thoáng hợp ngày nóng, túi thủ công là bề mặt nhấn duy nhất."
+    },
+    {
+      "slug": "hippie",
+      "kind": "outfit",
+      "outfitKey": "hippie-3",
+      "caption": "Maxi đất",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style hippie. Depict exactly: Top rib trơn; Váy maxi nâu; Giày bệt; Túi crochet. Áo gọn cân bằng maxi, gấu cách đất để vẫn lên bậc thang dễ."
+    },
+    {
+      "slug": "hippie",
+      "kind": "outfit",
+      "outfitKey": "hippie-4",
+      "caption": "Gile màu nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style hippie. Depict exactly: Gile dệt; Tee ivory; Quần denim thẳng; Giày canvas. Denim thẳng làm gile thủ công bớt hóa trang, giày phẳng hỗ trợ đi lại."
+    },
+    {
+      "slug": "hippie",
+      "kind": "outfit",
+      "outfitKey": "hippie-5",
+      "caption": "Lớp ngoài mộc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style hippie. Depict exactly: Cardigan cotton; Áo cổ mở; Quần flare tối; Boot suede. Lớp ngoài nhẹ và quần tối cho phép dùng màu ấm mà không nặng toàn bộ."
+    },
+    {
+      "slug": "maximalist",
+      "kind": "outfit",
+      "outfitKey": "maximalist-1",
+      "caption": "Ba màu có khung",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style maximalist. Depict exactly: Blouse emerald; Quần plum; Coat mustard; Giày burgundy. Coat là khung ngoài, blouse không nhiều bèo để ba màu vẫn có đường biên rõ."
+    },
+    {
+      "slug": "maximalist",
+      "kind": "outfit",
+      "outfitKey": "maximalist-2",
+      "caption": "Hoa và nền đậm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style maximalist. Depict exactly: Áo hoa lớn; Quần navy rộng; Giày đỏ; Túi navy. Navy lặp ở quần và túi tạo vùng nghỉ cho họa tiết và giày sáng."
+    },
+    {
+      "slug": "maximalist",
+      "kind": "outfit",
+      "outfitKey": "maximalist-3",
+      "caption": "Knit và trang sức",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style maximalist. Depict exactly: Knit mustard; Váy xanh sâu; Sneaker kem; Vòng chunky nhẹ. Vòng chỉ nhấn trên nền knit trơn, giày kem giảm độ nặng phần dưới."
+    },
+    {
+      "slug": "maximalist",
+      "kind": "outfit",
+      "outfitKey": "maximalist-4",
+      "caption": "Họa tiết hai cỡ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style maximalist. Depict exactly: Sơ mi kẻ nhỏ; Váy hoa lớn; Jacket berry; Giày trơn. Hai cỡ họa tiết dễ tách, jacket lặp màu trong hoa giúp liên kết."
+    },
+    {
+      "slug": "maximalist",
+      "kind": "outfit",
+      "outfitKey": "maximalist-5",
+      "caption": "Một món statement",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style maximalist. Depict exactly: Váy in nhiều màu; Sandal trơn; Túi emerald; Khuyên nhỏ. Váy đã nhiều thông tin nên phụ kiện còn lại chọn một màu có trong họa tiết."
+    },
+    {
+      "slug": "korean-casual",
+      "kind": "outfit",
+      "outfitKey": "korean-casual-1",
+      "caption": "Cardigan relaxed",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style korean-casual. Depict exactly: Cardigan oatmeal; Tee trắng; Jeans xanh thẳng; Sneaker trắng. Áo ngoài rộng nhưng tee gọn giúp thân không thành một khối, denim làm nền dễ dùng."
+    },
+    {
+      "slug": "korean-casual",
+      "kind": "outfit",
+      "outfitKey": "korean-casual-2",
+      "caption": "Sơ mi layering",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style korean-casual. Depict exactly: Sơ mi beige mở; Tank kín ivory; Quần xám; Túi nhỏ. Lớp ngoài có thể tháo, tank kín giữ sự thoải mái khi sơ mi mở."
+    },
+    {
+      "slug": "korean-casual",
+      "kind": "outfit",
+      "outfitKey": "korean-casual-3",
+      "caption": "Knit và midi",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style korean-casual. Depict exactly: Knit navy; Váy midi kem; Loafer; Túi canvas. Váy ít nếp cân bằng knit buông, loafer giữ nét gọn ở chân."
+    },
+    {
+      "slug": "korean-casual",
+      "kind": "outfit",
+      "outfitKey": "korean-casual-4",
+      "caption": "Blazer đời thường",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style korean-casual. Depict exactly: Blazer xám mềm; Tee trơn; Jeans ivory; Sneaker. Blazer không cấu trúc tạo lớp nhẹ, màu ivory giữ outfit sáng vừa."
+    },
+    {
+      "slug": "korean-casual",
+      "kind": "outfit",
+      "outfitKey": "korean-casual-5",
+      "caption": "Ngày se lạnh",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style korean-casual. Depict exactly: Sweatshirt oatmeal; Sơ mi trắng; Quần denim tối; Giày thấp. Chỉ lộ một phần cổ hoặc gấu sơ mi để layering không dày quá nhiều vị trí."
+    },
+    {
+      "slug": "athleisure",
+      "kind": "outfit",
+      "outfitKey": "athleisure-1",
+      "caption": "Chuyển từ tập nhẹ",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style athleisure. Depict exactly: Top sage; Legging charcoal kín; Sweatshirt ivory; Trainer. Lớp sweatshirt có thể tháo, legging được thử độ xuyên để dùng ngoài phòng tập."
+    },
+    {
+      "slug": "athleisure",
+      "kind": "outfit",
+      "outfitKey": "athleisure-2",
+      "caption": "Jogger và tee",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style athleisure. Depict exactly: Tee cotton trắng; Jogger navy; Sneaker êm; Túi gym. Gấu jogger gọn và tee vừa giúp bộ đồ đơn giản nhưng không luộm thuộm."
+    },
+    {
+      "slug": "athleisure",
+      "kind": "outfit",
+      "outfitKey": "athleisure-3",
+      "caption": "Zip layer",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style athleisure. Depict exactly: Áo performance tối; Quần thể thao thẳng; Áo zip nhẹ; Giày tập phù hợp. Mỗi lớp phục vụ nhiệt độ và vận động, áo zip dễ tháo sau khi di chuyển."
+    },
+    {
+      "slug": "athleisure",
+      "kind": "outfit",
+      "outfitKey": "athleisure-4",
+      "caption": "Legging với sơ mi",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style athleisure. Depict exactly: Legging đen; Tank kín; Sơ mi cotton rộng; Sneaker. Sơ mi tạo lớp đời thường và che phủ theo nhu cầu mà không biến thành đồ tập chuyên môn."
+    },
+    {
+      "slug": "athleisure",
+      "kind": "outfit",
+      "outfitKey": "athleisure-5",
+      "caption": "Ngày nghỉ linh hoạt",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style athleisure. Depict exactly: Knit mỏng; Quần track trơn; Sneaker kem; Tote. Knit làm quần track bớt tính thi đấu, tote không quá nhiều túi giữ bố cục gọn."
+    },
+    {
+      "slug": "sporty-chic",
+      "kind": "outfit",
+      "outfitKey": "sporty-chic-1",
+      "caption": "Blazer sneaker",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style sporty-chic. Depict exactly: Blazer ivory; Tank thể thao đen; Jogger taupe; Sneaker trắng. Blazer là khối có cấu trúc, tank gọn và jogger matte giữ liên kết với đồ thể thao."
+    },
+    {
+      "slug": "sporty-chic",
+      "kind": "outfit",
+      "outfitKey": "sporty-chic-2",
+      "caption": "Polo midi",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style sporty-chic. Depict exactly: Polo navy; Váy midi kem; Sneaker thấp; Túi hộp. Cổ polo và túi hộp tạo finish, giày thấp làm midi thuận tiện hơn."
+    },
+    {
+      "slug": "sporty-chic",
+      "kind": "outfit",
+      "outfitKey": "sporty-chic-3",
+      "caption": "Track và sơ mi",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style sporty-chic. Depict exactly: Sơ mi trắng; Quần track trơn; Loafer; Túi compact. Sơ mi giảm tính thi đấu của quần track, chọn đường sọc nhỏ nếu muốn ít tương phản."
+    },
+    {
+      "slug": "sporty-chic",
+      "kind": "outfit",
+      "outfitKey": "sporty-chic-4",
+      "caption": "Zip có cấu trúc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style sporty-chic. Depict exactly: Jacket zip matte; Tee ivory; Quần âu charcoal; Sneaker. Quần âu giữ phần may đo trong khi zip và giày tạo nhịp năng động."
+    },
+    {
+      "slug": "sporty-chic",
+      "kind": "outfit",
+      "outfitKey": "sporty-chic-5",
+      "caption": "Áo sport dưới coat",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style sporty-chic. Depict exactly: Top cổ tròn kỹ thuật; Quần suông navy; Coat beige; Trainer. Coat tạo khung lớn nhưng lớp trong nhẹ, outfit dùng ngày mát thay vận động cường độ cao."
+    },
+    {
+      "slug": "normcore",
+      "kind": "outfit",
+      "outfitKey": "normcore-1",
+      "caption": "Sweatshirt regular",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style normcore. Depict exactly: Sweatshirt xám; Jeans xanh regular; Sneaker trắng; Cap navy. Mỗi món quen thuộc giữ một tỷ lệ vừa, cap không cần logo để tạo điểm kết thúc."
+    },
+    {
+      "slug": "normcore",
+      "kind": "outfit",
+      "outfitKey": "normcore-2",
+      "caption": "Tee đời thường",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style normcore. Depict exactly: Tee trắng; Chino navy; Giày canvas; Tote. Chino thay jeans để dùng được nhiều bối cảnh, tee cần cổ không giãn."
+    },
+    {
+      "slug": "normcore",
+      "kind": "outfit",
+      "outfitKey": "normcore-3",
+      "caption": "Sơ mi giản dị",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style normcore. Depict exactly: Sơ mi xanh; Jeans tối; Loafer đơn giản; Túi vải. Không sơ vin quá căng và không thêm phụ kiện statement giữ nét bình dị."
+    },
+    {
+      "slug": "normcore",
+      "kind": "outfit",
+      "outfitKey": "normcore-4",
+      "caption": "Ngày mát thường nhật",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style normcore. Depict exactly: Áo knit xám; Quần đen regular; Jacket navy; Sneaker. Bảng màu hẹp làm lớp ngoài dễ dùng, các gấu kết thúc rõ tránh cảm giác đồ cũ rộng."
+    },
+    {
+      "slug": "normcore",
+      "kind": "outfit",
+      "outfitKey": "normcore-5",
+      "caption": "Linen rất cơ bản",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style normcore. Depict exactly: Sơ mi linen trắng; Short beige dài; Sandal da; Túi nhỏ. Đồ thoáng có phom đơn giản đáp ứng đi lại trong ngày nóng."
+    },
+    {
+      "slug": "scandinavian",
+      "kind": "outfit",
+      "outfitKey": "scandinavian-1",
+      "caption": "Knit texture",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style scandinavian. Depict exactly: Knit ivory rộng; Quần charcoal; Loafer chunky; Tote đen. Knit là bề mặt chính, phần gấu và cổ tay gọn tạo khung cho hai phom rộng."
+    },
+    {
+      "slug": "scandinavian",
+      "kind": "outfit",
+      "outfitKey": "scandinavian-2",
+      "caption": "Trench đời thường",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style scandinavian. Depict exactly: Trench tan; Tee trắng; Jeans thẳng; Sneaker. Trench mở cho đường dọc nhẹ, denim giảm vẻ quá formal của áo khoác dài."
+    },
+    {
+      "slug": "scandinavian",
+      "kind": "outfit",
+      "outfitKey": "scandinavian-3",
+      "caption": "Linen sáng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style scandinavian. Depict exactly: Sơ mi linen kem; Quần olive rộng; Sandal da; Túi canvas. Linen thay knit dày trong ngày nóng, olive vẫn nằm gần bảng màu đất."
+    },
+    {
+      "slug": "scandinavian",
+      "kind": "outfit",
+      "outfitKey": "scandinavian-4",
+      "caption": "Vest knit",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style scandinavian. Depict exactly: Gile knit xám; Sơ mi ivory; Quần đen; Derby. Gile thay lớp knit dài tay giúp layering ít nóng, cổ áo trong làm phần trên có đường rõ."
+    },
+    {
+      "slug": "scandinavian",
+      "kind": "outfit",
+      "outfitKey": "scandinavian-5",
+      "caption": "Một màu nhấn",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style scandinavian. Depict exactly: Coat navy; Knit kem; Quần xám; Khăn sage. Khăn sage là vùng màu duy nhất, coat có thể thay bằng cardigan nhẹ theo thời tiết."
+    },
+    {
+      "slug": "acubi",
+      "kind": "outfit",
+      "outfitKey": "acubi-1",
+      "caption": "Layer xám kín",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style acubi. Depict exactly: Áo mesh xám; Tank đen kín; Váy cargo charcoal; Boot thấp. Nền tank đảm bảo che phủ, cargo giữ phần khối trong khi lớp mesh tạo bề mặt."
+    },
+    {
+      "slug": "acubi",
+      "kind": "outfit",
+      "outfitKey": "acubi-2",
+      "caption": "Không mesh",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style acubi. Depict exactly: Tee fitted xám; Quần cargo đen; Sneaker; Túi bạc nhỏ. Tee cotton vẫn giữ đường gọn, túi bạc thay chi tiết xuyên làm điểm nhấn."
+    },
+    {
+      "slug": "acubi",
+      "kind": "outfit",
+      "outfitKey": "acubi-3",
+      "caption": "Zip compact",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style acubi. Depict exactly: Jacket zip ngắn; Top ivory; Quần charcoal; Giày đen. Gấu jacket gần cạp giữ tỷ lệ, nền ivory tạo một khe sáng trong bảng xám."
+    },
+    {
+      "slug": "acubi",
+      "kind": "outfit",
+      "outfitKey": "acubi-4",
+      "caption": "Midi đơn sắc",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style acubi. Depict exactly: Top dài tay đen; Váy midi xám; Giày platform nhẹ; Sling nhỏ. Midi trơn cho phiên bản ít túi, sling compact giữ ngôn ngữ phụ kiện."
+    },
+    {
+      "slug": "acubi",
+      "kind": "outfit",
+      "outfitKey": "acubi-5",
+      "caption": "Layer cotton",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style acubi. Depict exactly: Áo dài tay mỏng; Tee ngắn trơn; Jeans tối; Sneaker xám. Hai lớp cotton được thử độ nóng, cổ và gấu lộ vừa đủ để đọc layering."
+    },
+    {
+      "slug": "dark-academia",
+      "kind": "outfit",
+      "outfitKey": "dark-academia-1",
+      "caption": "Tweed thư viện",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style dark-academia. Depict exactly: Blazer tweed nâu; Cổ lọ charcoal; Quần pleat nâu; Loafer burgundy. Tweed có texture rõ trên lớp trong phẳng, chọn cổ lọ mỏng để cổ và vai vẫn dễ cử động."
+    },
+    {
+      "slug": "dark-academia",
+      "kind": "outfit",
+      "outfitKey": "dark-academia-2",
+      "caption": "Oxford trầm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style dark-academia. Depict exactly: Sơ mi ivory; Quần corduroy; Derby nâu; Satchel. Sơ mi sáng tạo vùng nghỉ, corduroy đủ texture nên không cần áo ngoài dày."
+    },
+    {
+      "slug": "dark-academia",
+      "kind": "outfit",
+      "outfitKey": "dark-academia-3",
+      "caption": "Gile thay blazer",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style dark-academia. Depict exactly: Gile knit navy; Sơ mi xanh; Quần charcoal; Loafer. Gile nhẹ làm lớp học thuật mà ít nóng, quần ly giữ ngôn ngữ may đo."
+    },
+    {
+      "slug": "dark-academia",
+      "kind": "outfit",
+      "outfitKey": "dark-academia-4",
+      "caption": "Váy học thuật",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style dark-academia. Depict exactly: Knit nâu; Váy midi kẻ nhỏ; Boot thấp; Túi da. Kẻ ở một vùng giúp knit trơn vẫn có điểm nhìn, gấu midi không chạm boot quá dài."
+    },
+    {
+      "slug": "dark-academia",
+      "kind": "outfit",
+      "outfitKey": "dark-academia-5",
+      "caption": "Ngày ấm trầm",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style dark-academia. Depict exactly: Sơ mi cotton nâu nhạt; Quần navy; Giày da thấp; Túi trơn. Bảng màu giữ thẩm mỹ trầm nhưng vải cotton thay layering mùa lạnh."
+    },
+    {
+      "slug": "light-academia",
+      "kind": "outfit",
+      "outfitKey": "light-academia-1",
+      "caption": "Gile ivory",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style light-academia. Depict exactly: Gile cable knit kem; Sơ mi beige; Quần camel ly; Loafer nâu. Knit và ly quần có cấu trúc khác nhau, nâu ở giày tạo neo cho bảng sáng."
+    },
+    {
+      "slug": "light-academia",
+      "kind": "outfit",
+      "outfitKey": "light-academia-2",
+      "caption": "Linen thư thái",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style light-academia. Depict exactly: Sơ mi linen ivory; Quần beige thẳng; Giày da thấp; Tote kem. Một bộ ít lớp phù hợp ngày nóng, đường cổ và gấu giữ cảm hứng gọn."
+    },
+    {
+      "slug": "light-academia",
+      "kind": "outfit",
+      "outfitKey": "light-academia-3",
+      "caption": "Midi học thuật",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style light-academia. Depict exactly: Cardigan camel; Váy midi ivory; Mary Jane; Túi da nâu. Cardigan có thể tháo, váy ít nếp giữ outfit không quá nhiều khối sáng."
+    },
+    {
+      "slug": "light-academia",
+      "kind": "outfit",
+      "outfitKey": "light-academia-4",
+      "caption": "Blazer sáng",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style light-academia. Depict exactly: Blazer beige; Tee trắng; Quần navy; Loafer. Navy hạ độ sáng của bộ đồ, tee không họa tiết làm blazer dễ dùng hàng ngày."
+    },
+    {
+      "slug": "light-academia",
+      "kind": "outfit",
+      "outfitKey": "light-academia-5",
+      "caption": "Knit ngày mát",
+      "file": "",
+      "provenance": "",
+      "prompt": "Luxury fashion editorial, full outfit portrait, 3:4, natural fabric detail, ivory beige architectural setting, no text or logos. Style light-academia. Depict exactly: Knit oatmeal; Sơ mi kem; Quần nâu nhạt; Boot thấp. Chỉ để lộ cổ sơ mi vừa đủ, boot và quần cùng tông giúp đường chân liền."
+    }
+  ]
+}

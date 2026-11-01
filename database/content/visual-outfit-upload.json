@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "slug": "old-money",
+      "kind": "outfit",
+      "outfitKey": "linen-campus",
+      "file": "assets/style-outfits/old-money-linen-campus.png",
+      "caption": "Linen gọn cho ngày học",
+      "provenance": "AI generated with builtin imagegen on 2026-10-12; adult female; visually reviewed against database formula. Full prompt: database/content/visual-outfit-prompts.json#old-money"
+    },
+    {
+      "slug": "dark-academia",
+      "kind": "outfit",
+      "outfitKey": "dark-academia-1",
+      "file": "assets/style-outfits/dark-academia-dark-academia-1.png",
+      "caption": "Tweed thư viện",
+      "provenance": "AI generated with builtin imagegen on 2026-10-12; adult female; visually reviewed against database formula. Full prompt: database/content/visual-outfit-prompts.json#dark-academia"
+    },
+    {
+      "slug": "coquette",
+      "kind": "outfit",
+      "outfitKey": "coquette-1",
+      "file": "assets/style-outfits/coquette-coquette-1.png",
+      "caption": "Một chiếc nơ",
+      "provenance": "AI generated with builtin imagegen on 2026-10-12; adult female; visually reviewed against database formula. Full prompt: database/content/visual-outfit-prompts.json#coquette"
+    },
+    {
+      "slug": "streetwear",
+      "kind": "outfit",
+      "outfitKey": "streetwear-1",
+      "file": "assets/style-outfits/streetwear-streetwear-1.png",
+      "caption": "Cargo đường phố",
+      "provenance": "AI generated with builtin imagegen on 2026-10-12; adult female; visually reviewed against database formula. Full prompt: database/content/visual-outfit-prompts.json#streetwear"
+    },
+    {
+      "slug": "minimalist",
+      "kind": "outfit",
+      "outfitKey": "minimalist-1",
+      "file": "assets/style-outfits/minimalist-minimalist-1.png",
+      "caption": "Đi làm nhẹ",
+      "provenance": "AI generated with builtin imagegen on 2026-10-12; adult female; visually reviewed against database formula. Full prompt: database/content/visual-outfit-prompts.json#minimalist"
+    }
+  ]
+}

@@ -5,7 +5,8 @@ import java.util.List;
 public record StyleGuideResponse(Overview overview, List<Note> recognition,
  List<PaletteColor> palette, List<Note> garments, List<Note> accessories,
  List<Outfit> outfits, List<Note> occasions, List<Note> suitability,
- List<Note> mistakes, Starter gettingStarted, List<Source> sources) {
+ List<Note> mistakes, Starter gettingStarted, List<Source> sources,
+ List<Note> silhouette, List<Note> materials) {
  public record Overview(String definition,String origin,String spirit,String context) {}
  public record Note(String title,String detail) {}
  public record PaletteColor(String name,String hex,String combination) {}

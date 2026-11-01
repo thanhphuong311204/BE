@@ -10,8 +10,19 @@ import org.springframework.web.servlet.resource.NoResourceFoundException;
 import java.util.*;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
+ @ExceptionHandler(ChatLibraryException.class)
+ ResponseEntity<Map<String,Object>> library(ChatLibraryException e) {
+  var response=ResponseEntity.status(e.status);
+  if(e.fields.containsKey("retryAfterSeconds")) response.header("Retry-After",e.fields.get("retryAfterSeconds"));
+  return response.body(Map.of("code",e.code,"message",e.getMessage(),"fields",e.fields,
+   "timestamp",java.time.Instant.now(),"library",Map.of("source","nova_library","blocks",e.blocks)));
+ }
  @ExceptionHandler(ApiException.class)
- ResponseEntity<ApiError> api(ApiException e) { return ResponseEntity.status(e.status).body(new ApiError(e.code,e.getMessage(),e.fields)); }
+ ResponseEntity<ApiError> api(ApiException e) {
+  var response=ResponseEntity.status(e.status);
+  if (e.fields.containsKey("retryAfterSeconds")) response.header("Retry-After",e.fields.get("retryAfterSeconds"));
+  return response.body(new ApiError(e.code,e.getMessage(),e.fields));
+ }
  @ExceptionHandler(MethodArgumentNotValidException.class)
  ResponseEntity<ApiError> validation(MethodArgumentNotValidException e) {
   var fields=new LinkedHashMap<String,String>();

@@ -3,7 +3,11 @@ target/
 .env.*
 !.env.example
 *.log
+output/
+__pycache__/
 .idea/
 *.iml
 application-local.yml
 application-local.yaml
+
+/data/chat-images/

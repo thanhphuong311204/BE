@@ -91,4 +91,43 @@ class ExploreCatalogIntegrationTest {
   jdbc.update("UPDATE users SET status='SUSPENDED' WHERE id=?",userId); entityManager.clear();
   mvc.perform(get("/api/explore/styles").with(jwt().jwt(j->j.subject(userId.toString())))).andExpect(status().isUnauthorized());
  }
+ @Test void allFortyEditorialGuidesRoundTripThroughDatabaseAndApi() throws Exception {
+  var entries=json.readTree(Files.readString(Path.of("database/content/style-guides-40.json"))).path("styles");
+  assertEquals(40,entries.size());
+  var definitions=new HashSet<String>();
+  for(var entry:entries) {
+   String slug=entry.path("slug").asText();
+   Long id=jdbc.queryForObject("SELECT id FROM styles WHERE slug=?",Long.class,slug);
+   Long language=jdbc.queryForObject("SELECT id FROM languages WHERE code='vi'",Long.class);
+   jdbc.update("DELETE FROM style_guides WHERE style_id=?",id);
+   jdbc.update("INSERT INTO style_guides(style_id,language_id,content) VALUES(?,?,?)",id,language,entry.path("guide").toString());
+   var result=mvc.perform(get("/api/explore/styles/{slug}",slug).with(jwt().jwt(j->j.subject(userId.toString()))))
+    .andExpect(status().isOk()).andExpect(jsonPath("$.images.length()").value(0)).andReturn();
+   var guide=json.readTree(result.getResponse().getContentAsString(StandardCharsets.UTF_8)).path("guide");
+   for(String field:List.of("overview","recognition","silhouette","palette","materials","garments","accessories","outfits","occasions","suitability","mistakes","gettingStarted"))
+    assertFalse(guide.path(field).isEmpty(),slug+":"+field);
+   assertTrue(guide.path("outfits").size()>=5,slug);
+   assertTrue(definitions.add(guide.path("overview").path("definition").asText()),slug);
+  }
+ }
+ @Test void outfitGalleryIsAttachedToItsStyleWithoutChangingGuideContent() throws Exception {
+  jdbc.update("INSERT INTO style_outfit_images(style_id,outfit_key,image_url,public_id,caption,sha256,provenance) VALUES(701,'old-money-1','https://res.cloudinary.com/demo/image/upload/outfit.jpg','outfit','Ảnh đã cấp quyền',?,'licensed')","a".repeat(64));
+  mvc.perform(get("/api/explore/styles/old-money").with(jwt().jwt(j->j.subject(userId.toString()))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.images[0].outfitKey").value("old-money-1"))
+   .andExpect(jsonPath("$.images[0].caption").value("Ảnh đã cấp quyền"))
+   .andExpect(jsonPath("$.guide.outfits.length()").value(6));
+  mvc.perform(get("/api/explore/styles/minimalist").with(jwt().jwt(j->j.subject(userId.toString()))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.images.length()").value(0));
+ }
+ @Test void reviewedVisualAssetsAreSeparateAndScopedToStyle() throws Exception {
+  String before=jdbc.queryForObject("SELECT content FROM style_guides WHERE style_id=701",String.class);
+  String profile="{\"dna\":[{\"key\":\"navy-blazer\",\"name\":\"Blazer navy\",\"imageUrl\":\"https://res.cloudinary.com/demo/image/upload/blazer.png\"}],\"fabrics\":[],\"essentials\":[],\"tips\":[\"Chon phom vua vai.\"]}";
+  jdbc.update("INSERT INTO style_visual_profiles(style_id,content,provenance) VALUES(701,?,?)",profile,"{}");
+  mvc.perform(get("/api/explore/styles/old-money").with(jwt().jwt(j->j.subject(userId.toString()))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.visuals.dna[0].key").value("navy-blazer"))
+   .andExpect(jsonPath("$.visuals.tips.length()").value(1));
+  mvc.perform(get("/api/explore/styles/minimalist").with(jwt().jwt(j->j.subject(userId.toString()))))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.visuals.dna.length()").value(0));
+  assertEquals(before,jdbc.queryForObject("SELECT content FROM style_guides WHERE style_id=701",String.class));
+ }
 }

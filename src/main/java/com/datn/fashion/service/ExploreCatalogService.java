@@ -22,10 +22,13 @@ public class ExploreCatalogService {
  public ExploreCatalogResponse list(Long id) {
   account(id); return new ExploreCatalogResponse(catalog.styles(), catalog.groups());
  }
- public ExploreStyleDetailResponse detailById(Long userId, Long id) { account(userId); var style=catalog.detailById(id).orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND,"STYLE_NOT_FOUND","Không tìm thấy phong cách.")); return new ExploreStyleDetailResponse(style,guides.get(style.id()).orElse(null)); }
+ public ExploreStyleDetailResponse detailById(Long userId, Long id) { account(userId); var style=catalog.detailById(id).orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND,"STYLE_NOT_FOUND","Không tìm thấy phong cách.")); return detailResponse(style); }
  public ExploreStyleDetailResponse detail(Long id, String slug) {
   account(id);
   var style = catalog.detail(slug).orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND,
-   "STYLE_NOT_FOUND","Phong cách không tồn tại hoặc đã ngừng hoạt động.")); return new ExploreStyleDetailResponse(style, guides.get(style.id()).orElse(null));
+   "STYLE_NOT_FOUND","Phong cách không tồn tại hoặc đã ngừng hoạt động.")); return detailResponse(style);
+ }
+ private ExploreStyleDetailResponse detailResponse(ExploreStyleResponse style) {
+  return new ExploreStyleDetailResponse(style,guides.get(style.id()).orElse(null),guides.images(style.id()),guides.visuals(style.id()));
  }
 }

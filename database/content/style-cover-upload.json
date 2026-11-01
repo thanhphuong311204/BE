@@ -1,0 +1,244 @@
+{
+  "images": [
+    {
+      "slug": "minimalist",
+      "kind": "cover",
+      "file": "assets/style-covers/minimalist.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "classic",
+      "kind": "cover",
+      "file": "assets/style-covers/classic.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "quiet-luxury",
+      "kind": "cover",
+      "file": "assets/style-covers/quiet-luxury.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "old-money",
+      "kind": "cover",
+      "file": "assets/style-covers/old-money.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "parisian-chic",
+      "kind": "cover",
+      "file": "assets/style-covers/parisian-chic.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "business-casual",
+      "kind": "cover",
+      "file": "assets/style-covers/business-casual.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "preppy",
+      "kind": "cover",
+      "file": "assets/style-covers/preppy.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "smart-casual",
+      "kind": "cover",
+      "file": "assets/style-covers/smart-casual.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "romantic",
+      "kind": "cover",
+      "file": "assets/style-covers/romantic.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "coquette",
+      "kind": "cover",
+      "file": "assets/style-covers/coquette.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "balletcore",
+      "kind": "cover",
+      "file": "assets/style-covers/balletcore.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "cottagecore",
+      "kind": "cover",
+      "file": "assets/style-covers/cottagecore.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "soft-girl",
+      "kind": "cover",
+      "file": "assets/style-covers/soft-girl.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "princesscore",
+      "kind": "cover",
+      "file": "assets/style-covers/princesscore.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "fairycore",
+      "kind": "cover",
+      "file": "assets/style-covers/fairycore.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "clean-girl",
+      "kind": "cover",
+      "file": "assets/style-covers/clean-girl.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "streetwear",
+      "kind": "cover",
+      "file": "assets/style-covers/streetwear.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "grunge",
+      "kind": "cover",
+      "file": "assets/style-covers/grunge.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "punk",
+      "kind": "cover",
+      "file": "assets/style-covers/punk.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "edgy",
+      "kind": "cover",
+      "file": "assets/style-covers/edgy.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "skater",
+      "kind": "cover",
+      "file": "assets/style-covers/skater.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "y2k",
+      "kind": "cover",
+      "file": "assets/style-covers/y2k.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "techwear",
+      "kind": "cover",
+      "file": "assets/style-covers/techwear.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "gorpcore",
+      "kind": "cover",
+      "file": "assets/style-covers/gorpcore.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "vintage",
+      "kind": "cover",
+      "file": "assets/style-covers/vintage.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "retro",
+      "kind": "cover",
+      "file": "assets/style-covers/retro.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "bohemian",
+      "kind": "cover",
+      "file": "assets/style-covers/bohemian.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "eclectic",
+      "kind": "cover",
+      "file": "assets/style-covers/eclectic.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "artsy",
+      "kind": "cover",
+      "file": "assets/style-covers/artsy.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "indie",
+      "kind": "cover",
+      "file": "assets/style-covers/indie.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "hippie",
+      "kind": "cover",
+      "file": "assets/style-covers/hippie.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "athleisure",
+      "kind": "cover",
+      "file": "assets/style-covers/athleisure.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "maximalist",
+      "kind": "cover",
+      "file": "assets/style-covers/maximalist.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "sporty-chic",
+      "kind": "cover",
+      "file": "assets/style-covers/sporty-chic.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "korean-casual",
+      "kind": "cover",
+      "file": "assets/style-covers/korean-casual.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "scandinavian",
+      "kind": "cover",
+      "file": "assets/style-covers/scandinavian.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "normcore",
+      "kind": "cover",
+      "file": "assets/style-covers/normcore.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "acubi",
+      "kind": "cover",
+      "file": "assets/style-covers/acubi.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "dark-academia",
+      "kind": "cover",
+      "file": "assets/style-covers/dark-academia.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    },
+    {
+      "slug": "light-academia",
+      "kind": "cover",
+      "file": "assets/style-covers/light-academia.png",
+      "provenance": "Generated with OpenAI built-in image_gen for NOVA ATELIER; original generation 2026-10-12."
+    }
+  ]
+}

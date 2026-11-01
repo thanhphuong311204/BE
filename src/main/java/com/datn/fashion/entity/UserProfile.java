@@ -33,6 +33,14 @@ public class UserProfile {
     @Column(name = "updated_at", nullable = false, columnDefinition = "TIMESTAMP")
     public Instant updatedAt;
 
+
+    @Enumerated(EnumType.STRING) @JdbcTypeCode(SqlTypes.VARCHAR) @Column(name="confirmed_face_shape",length=16)
+    public FaceShapeHistory.Shape confirmedFaceShape;
+    @Enumerated(EnumType.STRING) @JdbcTypeCode(SqlTypes.VARCHAR) @Column(name="face_confirmation_source",length=16)
+    public FaceShapeHistory.Source faceConfirmationSource;
+    @JdbcTypeCode(SqlTypes.TIMESTAMP) @Column(name="face_confirmed_at",columnDefinition="TIMESTAMP") public Instant faceConfirmedAt;
+    @JdbcTypeCode(SqlTypes.TIMESTAMP) @Column(name="face_shape_updated_at",columnDefinition="TIMESTAMP") public Instant faceShapeUpdatedAt;
+
     @PrePersist void onCreate() { createdAt = Instant.now(); updatedAt = createdAt; }
     @PreUpdate void onUpdate() { updatedAt = Instant.now(); }
 }

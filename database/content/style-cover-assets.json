@@ -1,0 +1,284 @@
+{
+  "images": [
+    {
+      "slug": "minimalist",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794074/nova-atelier/styles/minimalist/cover/1c71efd6-b4f0-4d32-a142-7550fc23c4e3.png",
+      "sha256": "f4888b74091a12d05e07164b48fd4566268bba9d2c266519fe17a1654a953da0",
+      "file": "assets/style-covers/minimalist.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "classic",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794077/nova-atelier/styles/classic/cover/1ef480ba-0983-4027-87da-2584fccb9dcb.png",
+      "sha256": "d54ed595775e0d44b6ab7246de4aea2312320f6840036c6c04a1fef502d3c457",
+      "file": "assets/style-covers/classic.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "quiet-luxury",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794081/nova-atelier/styles/quiet-luxury/cover/85f1c7ac-0d82-4a34-a987-a37a259a31ef.png",
+      "sha256": "c626c979450cc4d869e2f2739c9d89049af0993ed6f172bbd0ccc2c243b7c436",
+      "file": "assets/style-covers/quiet-luxury.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "parisian-chic",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794277/nova-atelier/styles/parisian-chic/cover/45f3b028-fdc9-42d1-a02d-d86a9746a025.png",
+      "sha256": "4167fe9d2f34dd9e0a186a2bdceffdb478eb5993cd7f744d6e9f85ef5bfb894d",
+      "file": "assets/style-covers/parisian-chic.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "preppy",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794280/nova-atelier/styles/preppy/cover/62a627da-7392-4166-988b-87cc50400af6.png",
+      "sha256": "2d81c535a42a4fd66606702fef991468f561ed40bf752051c4c0b3275d17e6c9",
+      "file": "assets/style-covers/preppy.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "old-money",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794084/nova-atelier/styles/old-money/cover/ac47845f-c0cc-4c94-8b97-a65c3e9b92fd.png",
+      "sha256": "87baf8b5c53148e2ec545be07c66a34a0c32545f30672bc704607ccbd679523b",
+      "file": "assets/style-covers/old-money.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "business-casual",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794278/nova-atelier/styles/business-casual/cover/59420066-ae35-40fc-9e07-f9acb42e034c.png",
+      "sha256": "ffd8f3cd411574d7e5c2753c2218c338d36e882c01fcf4141f7005db4e4b4443",
+      "file": "assets/style-covers/business-casual.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "smart-casual",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794283/nova-atelier/styles/smart-casual/cover/c53db171-3a61-49e3-b247-005ffe432670.png",
+      "sha256": "11c544bd7639d720adb151b26a9811245a2d74c23256cad7f5fc62b6e370d723",
+      "file": "assets/style-covers/smart-casual.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "romantic",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794286/nova-atelier/styles/romantic/cover/0f26d883-57b3-456e-8612-f19f63470d89.png",
+      "sha256": "726d94b978fccf689fe92c6ab0f82edba0424b5e67b5d56cdd52be34f303ba7b",
+      "file": "assets/style-covers/romantic.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "coquette",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794291/nova-atelier/styles/coquette/cover/f4151527-ba06-4e67-b3a5-5e2a68f60db1.png",
+      "sha256": "06f4a2f977bd61285eec921743c08e24818c7da8c7919cf68b28f2d6adc7114d",
+      "file": "assets/style-covers/coquette.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "balletcore",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794296/nova-atelier/styles/balletcore/cover/ed9678d8-6a43-4b44-bb64-757156308f37.png",
+      "sha256": "a1d6d8d10e0001ba2a39a7f926fce3441dd91d9e4fa769f2e697177b86ba038c",
+      "file": "assets/style-covers/balletcore.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "cottagecore",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794303/nova-atelier/styles/cottagecore/cover/f424a867-30fb-47eb-9ab4-8b5c6a6c5a46.png",
+      "sha256": "254786e7c7e20ad5aeece69e7a0e4176010e352d9b31e6cdcc2db76c30c07a64",
+      "file": "assets/style-covers/cottagecore.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "soft-girl",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794310/nova-atelier/styles/soft-girl/cover/a3c00841-46ed-4777-b979-b7d16aa91a0b.png",
+      "sha256": "bf73d7877f3795d24becdab6247fe5e4acac72f81b03738f1b5a4865c9ba3737",
+      "file": "assets/style-covers/soft-girl.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "princesscore",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794314/nova-atelier/styles/princesscore/cover/a15fc1d5-1dfb-458c-b333-2798d2b15b6e.png",
+      "sha256": "27c474b388f38349806731ae2a2dbbbae81053f7f00d3a421573f99b4c72f9d8",
+      "file": "assets/style-covers/princesscore.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "fairycore",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794317/nova-atelier/styles/fairycore/cover/21dc6b4e-41a6-4045-9bd3-7093f93b5558.png",
+      "sha256": "91fd10821e88cac48d283aff70b22185ad6c3a468e882e3ceb9df047ab74270f",
+      "file": "assets/style-covers/fairycore.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "clean-girl",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794320/nova-atelier/styles/clean-girl/cover/1bd7214f-9cd2-4cd8-b308-8fc6cc67fda3.png",
+      "sha256": "54e93c2abda1a3188ed0e20261ebd35e919fd484bfe124e924d8123ba5d17de4",
+      "file": "assets/style-covers/clean-girl.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "streetwear",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794323/nova-atelier/styles/streetwear/cover/aea22909-08c0-4db7-87e5-b7d0111616d6.png",
+      "sha256": "bd5d999fe7a7adf2747a6024672524b5a5fb7d99d08dd389ca292db55100d83d",
+      "file": "assets/style-covers/streetwear.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "grunge",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794326/nova-atelier/styles/grunge/cover/cfec7db4-a892-411b-abf9-88b25d6f2bc3.png",
+      "sha256": "628414176c3e19264e3008367f33204ca707ecc7133e3589c2fa0a3ce62f0f33",
+      "file": "assets/style-covers/grunge.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "punk",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794329/nova-atelier/styles/punk/cover/e4381538-f016-483a-a119-ecac0e168dea.png",
+      "sha256": "603af19ff82df234b7c2c27bb8d7a946cda6bed2e224efdc390e2a06c4e9dd35",
+      "file": "assets/style-covers/punk.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "edgy",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794333/nova-atelier/styles/edgy/cover/860af0cc-a159-42f5-b781-c28afca0cf6c.png",
+      "sha256": "a0b35a9b766223037eee40bc3c15d9063676796a12580d7761b59ce6bbf6bd04",
+      "file": "assets/style-covers/edgy.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "skater",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794338/nova-atelier/styles/skater/cover/f396ccf7-3365-49ff-80ad-aa9bae725787.png",
+      "sha256": "261142fffc6ce90238a77a04e8e278eb029ea1c3c6a363c1e5c6fd89942ff580",
+      "file": "assets/style-covers/skater.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "y2k",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794341/nova-atelier/styles/y2k/cover/3b19ca86-8306-4bcd-b4fc-cdbcbb0aa697.png",
+      "sha256": "673b44f127812a211f4b2cf9a3ada418c0a80b7130efde75a65c21c529345222",
+      "file": "assets/style-covers/y2k.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "techwear",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794344/nova-atelier/styles/techwear/cover/c72011ff-be82-4cd3-b773-74da8a4a3c90.png",
+      "sha256": "e8fac3a30ad25951a68619697c58a4a18c1817721c48cce0be4851beaf8bd191",
+      "file": "assets/style-covers/techwear.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "gorpcore",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794346/nova-atelier/styles/gorpcore/cover/ce41c523-89ee-4360-998e-51c0afe22e18.png",
+      "sha256": "510636d62ac665443a4420aa92df19f2fc090b2091eaef511da13d8ad61f3ec9",
+      "file": "assets/style-covers/gorpcore.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "vintage",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794348/nova-atelier/styles/vintage/cover/9b29a2ba-4079-4f28-ae36-694d77e79b98.png",
+      "sha256": "9c4cdb004a1ab9c97502f361067896d6009e478d5ca7b931fe4027bbf7aa9aba",
+      "file": "assets/style-covers/vintage.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "bohemian",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794354/nova-atelier/styles/bohemian/cover/53f42ea3-b107-483c-b63c-ec86094b4962.png",
+      "sha256": "b4563b08a1c8c87a4ace1dd2007135d3c3b6ff30406ca6f48da61e465d3165ae",
+      "file": "assets/style-covers/bohemian.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "artsy",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794359/nova-atelier/styles/artsy/cover/db7ff6ab-ff13-4581-8a86-114debb977af.png",
+      "sha256": "cc76aa28cca9e30d8194e859b67becba91bebb9d13233822e5fff66d34e6c187",
+      "file": "assets/style-covers/artsy.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "indie",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794362/nova-atelier/styles/indie/cover/0f82fb46-e163-43a9-9d16-8cbaafdb72b1.png",
+      "sha256": "3e1c707b4c1db0ad6b9653979583404d73e9b9e7b087268d9d0df5a0ac629279",
+      "file": "assets/style-covers/indie.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "retro",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794350/nova-atelier/styles/retro/cover/fea21a1a-bea1-4487-94c4-c4720c026647.png",
+      "sha256": "943f2e5c1ef706671a21bdc6543bfca4069ec3bef87c58f48c4f6699a67599ba",
+      "file": "assets/style-covers/retro.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "eclectic",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794356/nova-atelier/styles/eclectic/cover/388db07f-1c76-4068-a7f1-798996227fec.png",
+      "sha256": "3aabb45d253593be05c772c9289425e20da362cd67d9850a0f020047de6df44c",
+      "file": "assets/style-covers/eclectic.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "hippie",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794365/nova-atelier/styles/hippie/cover/2632eb1b-d85c-46d7-8124-d2eab8502cf4.png",
+      "sha256": "d70d7277e068d9180fc006a2eec63d16e80bee2577ded60649fb42218a5fecb3",
+      "file": "assets/style-covers/hippie.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "maximalist",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794369/nova-atelier/styles/maximalist/cover/c112ce7e-f51c-401f-84be-85c45ec4d862.png",
+      "sha256": "cfb7266cd835f9f16e678b163eff74a8d640a8c162436cdad4b534eeb4a3b26a",
+      "file": "assets/style-covers/maximalist.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "korean-casual",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794372/nova-atelier/styles/korean-casual/cover/e192fcc8-bfe0-4714-af9c-eccabb36d5f9.png",
+      "sha256": "9f2504c9e48905f0c68043868db8028ee1c63fd6b3e53ac4b83e3127f8104251",
+      "file": "assets/style-covers/korean-casual.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "athleisure",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794367/nova-atelier/styles/athleisure/cover/1c0a2170-608d-4d80-afa3-6aa749108c2d.png",
+      "sha256": "95ff9e2775f5bf593953c67ca453814ce4ea1223787dd980e6c37a286f2bd3aa",
+      "file": "assets/style-covers/athleisure.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "sporty-chic",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794371/nova-atelier/styles/sporty-chic/cover/1c83261e-5a83-48ea-8e85-5fdcd8057b6d.png",
+      "sha256": "b010cb15b733291ec5f71aff8131dcdac09f640ecb6dc9f582304d0a604582fa",
+      "file": "assets/style-covers/sporty-chic.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "normcore",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794378/nova-atelier/styles/normcore/cover/0a116005-182d-47ef-86bc-b0f8c6ba6ac9.png",
+      "sha256": "676393bcd9e5bbe69031490d1e85791f5a82aaae97107db2826fa61e06b6a88d",
+      "file": "assets/style-covers/normcore.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "scandinavian",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794375/nova-atelier/styles/scandinavian/cover/c323d29a-55a4-4793-aa44-533530cf60d6.png",
+      "sha256": "96350a1f83affe4e9449f04304bc39e158968b265767156a3fdc6ab990656766",
+      "file": "assets/style-covers/scandinavian.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "acubi",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794381/nova-atelier/styles/acubi/cover/eedd9088-d9cc-45fe-ac3b-f09dfb2bd686.png",
+      "sha256": "d4a586be6886e7e23aa1cab818f395050941ba5b576e1859a4ae50114e4cc0d0",
+      "file": "assets/style-covers/acubi.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "dark-academia",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794384/nova-atelier/styles/dark-academia/cover/4a580b7b-a4dc-4dfc-9cd0-0e9afe08c08d.png",
+      "sha256": "1b16c7d8c03ddcd2f06d54e570ca1b5caffc2e6c4168397e9237de61cb1417f7",
+      "file": "assets/style-covers/dark-academia.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    },
+    {
+      "slug": "light-academia",
+      "url": "https://res.cloudinary.com/db8jojttc/image/upload/v1791794387/nova-atelier/styles/light-academia/cover/bb4ed9d1-352f-40ff-b3d2-5676b8f7dc79.png",
+      "sha256": "62a7df6327d1ab0291b92774d9334a4b27c161dd96a233041299491eeba9dca4",
+      "file": "assets/style-covers/light-academia.png",
+      "provenance": "OpenAI image_gen; created 2026-10-12; reviewed individually; no internet photos"
+    }
+  ]
+}

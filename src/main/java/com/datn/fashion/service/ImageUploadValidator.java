@@ -24,7 +24,7 @@ public class ImageUploadValidator {
             if (bytes.length > MAX_BYTES)
                 throw new ApiException(HttpStatus.PAYLOAD_TOO_LARGE, "FILE_TOO_LARGE", "Ảnh tối đa 5 MB.");
             // Determine and decode the actual format; ignore client filename and MIME type.
-            try (var input = ImageIO.createImageInputStream(new ByteArrayInputStream(bytes))) {
+            try (var input = new javax.imageio.stream.MemoryCacheImageInputStream(new ByteArrayInputStream(bytes))) {
                 if (input == null) throw invalid();
                 var readers = ImageIO.getImageReaders(input);
                 if (!readers.hasNext()) throw invalid();
